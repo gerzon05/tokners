@@ -1,0 +1,475 @@
+        body{
+            margin: 0px;
+        }
+        *{
+
+            font-family: 'Poppins', sans-serif;
+        }
+        .principal{
+            width: 100%;
+            background: #0F1320;
+            background-image: url(../bg.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            overflow: hidden;
+        }
+        .divnav1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 66px;
+            margin: 0px 20px;
+        }
+        .divnav1 .divnav2 .logonav1 img{
+            animation-name: logo;
+            animation-duration: 3s;
+            animation-delay: 1s;
+        }
+        @keyframes logo {
+            from{transform: translateY(-100%);}
+            to{transform:translateY(0%);}
+        }
+        .divnav1 .divnav2{
+            display: flex;
+            align-items: center;
+        }
+        .divnav1 .divnav2 .buscadores ul{
+            display: flex;
+            gap: 25px;
+            list-style: none;
+        }
+        .divnav1 .divnav2 .buscadores ul a{
+            text-decoration: none;
+            color: white;
+        }
+        .divnav1 .divnav2 .buscadores ul a:hover{
+            color: red;
+        }
+        .divnav1 .boton{
+            gap: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .divnav1 .boton .b1{
+            padding: 10px 30px;
+        }
+        .divnav1 .boton .b2{
+            border: 1px solid #22A75D;
+            padding: 10px 30px;
+            border-radius: 20px;
+        }
+        .divnav1 .boton .b1 a, .divnav1 .boton .b2 a{
+            text-decoration: none;
+            color: white;
+        }
+        
+        .parte1{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .parte1 .parte1text{
+            width: 30%;
+            color: white;
+            margin-bottom: 240px;
+        }
+        .parte1 .parte1text h1{
+            font-size: 32px;
+        }
+        .parte1 .parte1text .t1{
+            color: #2B3087;
+        }
+        .parte1 .parte1text .t2{
+            font-size: 15px;
+            margin-bottom: 40px;
+        }
+        .parte1 .parte1text .botonparte1{
+            background: #22A75D;
+            border-radius: 52px;
+            padding: 10px 30px;
+        }
+        .parte1 .parte1text .anima{
+            animation-name: botonp1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            position: relative;
+        }
+        @keyframes botonp1 {
+            0% {left: 0px;top: 0px;}
+            25% {left: 10px;top: 0px;}
+            50% {left: 10px;top: 10px;}
+            75% {left: 0px;top: 10px;}
+            100% {left: 0px;top: 0px;}
+        }
+        .parte1 .parte1text .botonparte1 a{
+            text-decoration: none;
+            color: white;
+        }
+        .parte1 .parte1imagen{
+            width: 60%;
+        }
+        .parte1 .parte1imagen img{
+            width: 100%;
+            overflow: hidden;
+        }
+        .parte1 .parte1imagen .img2parte1{
+            display: none;
+        }
+        .parte1 .parte1imagen img{
+            animation-name: imagen1;
+            animation-duration: 4s;
+            animation-delay: 1s;
+        }
+        @keyframes imagen1 {
+            from{transform: translateX(50%);}
+            to{transform:translateX(0%);}
+        }
+
+        .parte2{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            height: 525px;
+        }
+        .parte2 .contparte2{
+            width: 44%;
+            background:#171B29;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 72%;
+        }
+        .parte2 .contparte2 div{
+            width: 90%;
+            color:white;
+        }
+
+        .parte2 .contparte2 div p{
+            color: #FFFFFF;
+            font-size: 15px;
+        }
+        .parte2 .contparte2 .textoparte2{
+            margin-top: -39px;
+        }
+        .parte2 .contparte2 .textoparte2 .texto1u u{
+            color: #22A75D;
+        }
+        .parte2 .contparte2 .textoparte2 .texto2u u{
+            color: #2278D4;
+        }
+        .parte2 .contparte2 div .p2b1 a{
+            color: #22A75D;
+            text-decoration: none;
+        }
+        .parte2 .contparte2 div .p2b2 a{
+            color: #2278D4;
+            text-decoration: none;
+        }
+        .parte2 .flex-end{
+            align-self: flex-end;
+        }
+        
+
+        .parte3{
+            display: flex;
+            justify-content: center;
+            margin-top: 70px;
+        }
+        .parte3 .contparte3{
+            width: 50%;
+        }
+        .parte3 .contparte3 img{
+            width: 100%;
+            height: 100%;
+        }
+        .imagenfondo{
+           background: white;
+           border-radius: 250px 0px 0px 0px;
+        }
+        .parte3 .contparte3 .textoparte3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .parte3 .contparte3 .textoparte3 div{
+            width: 60%;
+        }
+        .parte3 .contparte3 .textoparte3 h2{
+            font-family: 'Century Gothic';
+            font-size: 33px;
+
+        }
+        .parte3 .contparte3 .textoparte3 h6{
+            font-family: 'Century Gothic';
+            font-size: 11px;
+            color: #0F1320;
+            opacity: 0.6;
+
+        }
+        .parte3 .contparte3 .textoparte3 p{
+            font-family: 'Century Gothic';
+            font-size: 11px;
+            color: #0F1320;
+            opacity: 0.6;
+        }
+
+        .parte4{
+            background-image: url(../parte4/Vector.png);
+            background-repeat: no-repeat;
+            background-position: 100% 0%;
+            display: flex;
+            justify-content:center ;
+            gap: 5px;
+            color: white;
+            margin-bottom: 4%;
+        }
+        .parte4 .q1, .q2, .q3, .q4{
+            margin-top: 190px;
+            width: 22%;
+            font-size: 12px;
+        }
+        .parte4 .q1 div ul,  .parte4 .q2 div ul,  .parte4 .q3 div ul,  .parte4 .q4 div ul{
+            list-style: none;
+            gap: 10px 0px;
+            display: flex;
+            flex-direction: column;
+        }
+        .parte4 .q1 div ul li .primercolor{
+            color: #22A75D;
+            padding-right: 10px;
+
+        }
+        .parte4 .q2 div ul li .segundocolor{
+            color: #2278D4;
+            padding-right: 10px;
+
+        }
+        .parte4 .q3 div ul li .tercercolor{
+            color: #FFD100;
+            padding-right: 10px;
+
+        }
+        .parte4 .q4 div ul li .cuartocolor{
+            color: #E20613;
+            padding-right: 10px;
+
+        }
+        .parte4 .q1 div, .parte4 .q2 div, .parte4 .q3 div, .parte4 .q4 div{
+            display: flex;
+            align-items: center;
+        }
+        .parte4 .q1 div .columna, .parte4 .q2 div .columna, .parte4 .q3 div .columna, .parte4 .q4 div .columna{
+            display: block;
+        }
+        .parte4 .q1 div .columna .circulo1{
+            background: #22A75D;
+
+        }
+        .parte4 .q2 div .columna .circulo2{
+            background: #2278D4;
+
+
+        }
+        .parte4 .q3 div .columna .circulo3{
+            background: #FFD100;
+
+        }
+        .parte4 .q4 div .columna .circulo4{
+            background: #E20613;
+        }
+        .circulo{
+            width: 10px;
+            height: 10px;
+            border-radius: 25px;
+            margin-bottom: 10px;
+        }
+
+        .parte5{
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+        .parte5 .textoparte5{
+            width: 35%;
+        }
+        .parte5 .imagenparte5{
+            width: 50%;
+        }
+        .parte5 .textoparte5 .tituloparte5{
+            animation-name: logo;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+        }
+        @keyframes logo {
+            from{transform: scale3d(1.5, 1.5, 1.5);}
+        }
+        .parte5 .textoparte5 div{
+            display: flex;
+            align-items: center;
+        }
+        .parte5 .textoparte5 h2{
+            color: white;
+            display: flex;
+            align-items: center;
+            font-size: 34px;
+            width: 100%;
+        }
+        .parte5 .textoparte5 p{
+            width: 94%;
+            font-size: 12px;
+        }
+        .parte5 .textoparte5 .botonparte5{
+            background: transparent;
+            border-radius: 52px;
+            padding: 10px 30px;
+            border: 1px solid #22A75D;
+        }
+        .parte5 .textoparte5 .botonparte5{
+            animation-name: boton5;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+        }
+        @keyframes boton5{
+            from{transform: rotateX(0deg)}
+            to{transform: rotateX(359deg)}
+        }
+        .parte5 .textoparte5 .botonparte5 a{
+            text-decoration: none;
+            color: white;
+        }
+        .parte5 .imagenparte5 img{
+            width: 100%;
+        }
+        .parte5 .imagenparte5 img{
+            animation-name: imagen3;
+            animation-duration: 4s;
+            animation-iteration-count: 5;
+            animation-delay: 1s;
+        }
+        @keyframes imagen3 {
+            from{transform: translateX(100%);}
+            to{transform:translateX(0%);}
+        }
+        .parte5 .imagenparte5{
+            background-image: url(../parte5/fondo.png);
+            background-repeat: no-repeat;
+            overflow: hidden;
+            background-size: 86% 99.5%;
+            background-position: 100%
+        }
+
+
+        .parte6{
+            background-image: url(../parte6/fondo.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 940px;
+        }
+        .parte6 .tituloparte6{
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        .parte6 .tituloparte6 h2{
+            margin-top:20%;
+        }
+        .parte6 .contparte6{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            height: 540px;
+        }
+
+        .parte6 .contparte6 .tarjeta1, .tarjeta2, .tarjeta3{
+            width: 22%;
+            background: white;
+            border-radius: 5%;
+            text-align: center;
+            padding: 4% 4%;
+            height: 63%;
+        }
+        .parte6 .contparte6 .tarjeta2{
+            align-self: flex-end;
+        }
+
+        .parte7{
+            color:white;
+        }
+        .parte7 .tituloparte7 h2{
+            text-align: center;
+            margin-top: 5%;
+        }
+        .parte7 .contenidoparte7{
+            display: flex;
+            justify-content: center;
+            gap: 7px;
+            height: 250px;
+        }
+        .parte7 .contenidoparte7 div{
+            width: 31%;
+            background: #171b29;
+            border-radius: 16px;
+            display: flex;
+            justify-content: center;
+            height: 200px;
+            align-items: center;
+        }
+        .parte7 .contenidoparte7 div p{
+        width: 60%;
+        padding: 50px 0px;
+        }
+        .parte7 .contenidoparte7 .bajar7{
+            align-self: flex-end;
+        }
+        .imagen1parte7{
+            margin: 8% 0px 0% 32%;
+            position: absolute;
+            width: 4%;
+        }
+        .imagen2parte7{
+            margin: 8% 0px 0% 63.9%;
+            position: absolute;
+            width: 4%;
+        }
+
+        .piedepagina .buspiedepagina{
+            display: flex;
+            justify-content: center;
+            padding: 8% 0%;
+        }
+        .piedepagina .buspiedepagina ul{
+            display: flex;
+            gap: 150px;
+            list-style: none;
+        }
+        .piedepagina .buspiedepagina ul a{
+            color: white;
+        }
+        .piedepagina .contenidopiedepagina{
+            display: flex;
+            justify-content: space-around;
+            padding-bottom: 8%;
+        }
+        .piedepagina .contenidopiedepagina .logos{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .piedepagina .contenidopiedepagina .logos a{
+            color: white;
+        }
+        .piedepagina .contenidopiedepagina .textopiedepagina{
+            text-align: right;
+            color: white;
+        }
+        .fondoul{
+            background-image: url(../fondoul.png);
+            background-repeat: no-repeat;
+            background-position: 0% 100%;
+            background-size: 100%;
+        }
