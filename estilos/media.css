@@ -1,0 +1,2681 @@
+@media (max-width: 349.98px){
+    nav .botones{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+        padding: 15% 6%;
+    }
+    nav .icono a{
+        font-size: 25px;
+    }
+    nav .logo ul{
+        display: none;
+    }
+    .principal .buscamovil{
+        display: block;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .principal .buscamovil ul{
+        text-align: center;
+        list-style: none;
+        padding: 8% 0;
+        margin: 0;
+        width: 100%;
+    }
+    .principal .buscamovil ul a{
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+    }
+    /* parte1 */
+    .parte1{
+        color: white;
+    }
+    .parte1 .textoparte1{
+        padding: 2% 7%;
+    }
+    .parte1 .textoparte1 .p1{
+        font-size: 13px;
+        color: #2B3087;
+    }
+    .parte1 .textoparte1 h1{
+        color: white;
+        font-size: 29px;
+    }
+    .parte1 .textoparte1 .p2{
+        color: #DDE2FF;
+        opacity: 0.6;
+        font-size: 12px;
+    }
+    .parte1 .textoparte1 a button{
+        background: #22A75D;
+        box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+        border-radius: 52px;
+        border: 0;
+        color: white;
+        font-size: 15px;
+        padding: 2% 7%;
+    }
+    .parte1 .imagenparte1 .m1{
+        display: none;
+    }
+    /* parte2 */
+    .parte2{
+        color: white;
+        padding: 2% 4%;
+    }
+    .parte2 .caja1{
+        background: #171B29;
+        padding: 6%;
+        margin-bottom: 8%;
+        border-radius: 15px;
+    }
+    .parte2 .caja1 img{
+        color: wheat;
+    }
+    .parte2 .caja1 h2{
+        font-size: 25px;
+    }
+    .parte2 .caja1 h2 a{
+        color: #22A75D;
+    }
+    .parte2 .caja1 p{
+    color: #FFFFFF;
+    font-size: 15px;
+    opacity: 0.5;
+    }
+    .parte2 .caja1 .a2{
+        color: #22A75D;
+        text-decoration: none;
+    }
+    .parte2 .caja2{
+        background: #171B29;
+        padding: 6%;
+        border-radius: 15px;
+    }
+    .parte2 .caja2 img{
+        color: wheat;
+    }
+    .parte2 .caja2 h2{
+        font-size: 25px;
+    }
+    .parte2 .caja2 h2 a{
+        color: #2278D4;
+    }
+    .parte2 .caja2 p{
+        color: #FFFFFF;
+        opacity: 0.5;
+        font-size: 14px;
+    }
+    .parte2 .caja2 .a2{
+        color: #2278D4;
+        text-decoration: none;
+    }
+    /* parte3 */
+    .parte3{
+        padding: 7% 0 0 0;
+    }
+    .parte3 .caja1{
+    width: 100%;
+    }
+    .parte3 .caja1 img{
+        width: 100%;
+        transform: scaleX(-1);
+    }
+    .parte3 .caja2{
+        background: #FFFFFF;
+        border-radius: 0 120px 0 0;
+        color: black;
+    }
+    .parte3 .caja2 div{
+        padding: 9% 4%;
+    }
+    .parte3 .caja2 h2{
+        width: 70%;
+        font-size: 27px;
+    }
+    .parte3 .caja2 h6{
+        font-size: 12px;
+    }
+    .parte3 .caja2 p{
+        font-size: 12px;
+    }
+    /* parte4 */
+    .parte4 .color .col1 .flex, .parte4 .color .col2 .flex, .parte4 .color .col3 .flex, .parte4 .color .col4 .flex{
+        display: flex;
+        color: white;
+        align-items: center;
+    }
+    .parte4 .color .col1, .parte4 .color .col2, .parte4 .color .col3, .parte4 .color .col4 {
+        padding: 5% 0;
+    }
+    .parte4 .color .col1 .flex img, .parte4 .color .col2 .flex img, .parte4 .color .col3 .flex img, .parte4 .color .col4 .flex img{
+        width: 40%;
+    }
+    .parte4 .color .col1 .flex .cont .circulo1{
+        width: 10px;
+        background: #22A75D;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col1 ul, .parte4 .color .col2 ul, .parte4 .color .col3 ul, .parte4 .color .col4 ul{
+        list-style: none;
+        padding: 0 0 0 10%;
+        font-size: 13px;
+        color: white;
+        margin: 0;
+    }
+    .parte4 .color .col1 ul .primercolor{
+        color:#22A75D;
+        padding-right: 4%;
+    }
+
+    .parte4 .color .col2 .flex .cont .circulo2{
+        width: 10px;
+        background: #2278D4;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col2 ul .segundocolor{
+        color:#2278D4;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 .flex .cont .circulo3{
+        width: 10px;
+        background: #FFD100;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col3 ul .segundocolor{
+        color:#FFD100;
+        padding-right: 4%;
+    }
+    .parte4 .color .col4 .flex .cont .circulo4{
+        width: 10px;
+        background: #E20613;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col4 ul .segundocolor{
+        color:#E20613;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 ul li{
+        display: flex;
+    }
+    .parte4 .color .col3 ul li p{
+        margin: 0;
+    }
+    /* parte5 */
+    .parte5{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .parte5 .caja1{
+        width: 100%;
+        padding: 6%;
+    }
+    .parte5 .caja1 h2{
+        color: white;
+        font-size: 30px;
+    }
+    .parte5 .caja1 p{
+        color: #FFFFFF;
+        opacity: 0.6;
+        font-size: 12px;
+    }
+    .parte5 .caja1 button{
+        background: transparent;
+        font-size: 17px;
+        border:0;
+        color: #22A75D;
+    }
+    .parte5 .caja2{
+        width: 100%;
+        background-image: url(../parte5/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 84%;
+        background-position: 79% 82%;
+    }
+    .parte5 .caja2 img{
+        width: 100%;
+    }
+}
+@media (min-width:350px) and (max-width: 449.98px){
+    nav .botones{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+        padding: 12% 6%;
+    }
+    nav .icono a{
+        font-size: 30px;
+    }
+    nav .logo ul{
+        display: none;
+    }
+    .principal .buscamovil{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    .principal .buscamovil ul{
+        text-align: center;
+        list-style: none;
+        padding: 8% 0;
+        margin: 0;
+    }
+    .principal .buscamovil ul a{
+        color: white;
+        text-decoration: none;
+        font-size: 27px;
+    }
+    /* parte1 */
+    .parte1{
+        color: white;
+    }
+    .parte1 .textoparte1{
+        padding: 2% 7%;
+    }
+    .parte1 .textoparte1 .p1{
+        font-size: 13px;
+        color: #2B3087;
+    }
+    .parte1 .textoparte1 h1{
+        color: white;
+        font-size: 34px;
+    }
+    .parte1 .textoparte1 .p2{
+        color: #DDE2FF;
+        opacity: 0.6;
+        font-size: 14px;
+    }
+    .parte1 .textoparte1 a button{
+        background: #22A75D;
+        box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+        border-radius: 52px;
+        border: 0;
+        color: white;
+        font-size: 15px;
+        padding: 3% 10%;
+    }
+    .parte1 .imagenparte1 .m1{
+        display: none;
+    }
+    /* parte2 */
+    .parte2{
+        color: white;
+        padding: 2% 4%;
+    }
+    .parte2 .caja1{
+        background: #171B29;
+        padding: 6%;
+        margin-bottom: 8%;
+        border-radius: 15px;
+    }
+    .parte2 .caja1 img{
+        color: wheat;
+    }
+    .parte2 .caja1 h2{
+        font-size: 30px;
+    }
+    .parte2 .caja1 h2 a{
+        color: #22A75D;
+    }
+    .parte2 .caja1 p{
+    color: #FFFFFF;
+    font-size: 18px;
+    opacity: 0.5;
+    }
+    .parte2 .caja1 .a2{
+        color: #22A75D;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .parte2 .caja2{
+        background: #171B29;
+        padding: 6%;
+        border-radius: 15px;
+    }
+    .parte2 .caja2 img{
+        color: wheat;
+    }
+    .parte2 .caja2 h2{
+        font-size: 30px;
+    }
+    .parte2 .caja2 h2 a{
+        color: #2278D4;
+    }
+    .parte2 .caja2 p{
+        color: #FFFFFF;
+        opacity: 0.5;
+        font-size: 17px;
+    }
+    .parte2 .caja2 .a2{
+        color: #2278D4;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    /* parte3 */
+    .parte3{
+        padding: 7% 0 0 0;
+    }
+    .parte3 .caja1{
+    width: 100%;
+    }
+    .parte3 .caja1 img{
+        width: 100%;
+        transform: scaleX(-1);
+    }
+    .parte3 .caja2{
+        background: #FFFFFF;
+        border-radius: 0 140px 0 0;
+        color: black;
+    }
+    .parte3 .caja2 div{
+        padding: 9% 4%;
+    }
+    .parte3 .caja2 h2{
+        width: 70%;
+        font-size: 31px;
+    }
+    .parte3 .caja2 h6{
+        font-size: 15px;
+    }
+    .parte3 .caja2 p{
+        font-size: 14px;
+    }
+    /* parte4 */
+    .parte4 .color .col1 .flex, .parte4 .color .col2 .flex, .parte4 .color .col3 .flex, .parte4 .color .col4 .flex{
+        display: flex;
+        color: white;
+        align-items: center;
+    }
+    .parte4 .color .col1, .parte4 .color .col2, .parte4 .color .col3, .parte4 .color .col4 {
+        padding: 5% 0;
+    }
+    .parte4 .color .col1 .flex img, .parte4 .color .col2 .flex img, .parte4 .color .col3 .flex img, .parte4 .color .col4 .flex img{
+        width: 40%;
+    }
+    .parte4 .color .col1 .flex .cont .circulo1{
+        width: 10px;
+        background: #22A75D;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col1 ul, .parte4 .color .col2 ul, .parte4 .color .col3 ul, .parte4 .color .col4 ul{
+        list-style: none;
+        padding: 0 0 0 10%;
+        font-size: 16px;
+        color: white;
+        margin: 0;
+    }
+    .parte4 .color .col1 ul .primercolor{
+        color:#22A75D;
+        padding-right: 4%;
+    }
+
+    .parte4 .color .col2 .flex .cont .circulo2{
+        width: 10px;
+        background: #2278D4;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col2 ul .segundocolor{
+        color:#2278D4;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 .flex .cont .circulo3{
+        width: 10px;
+        background: #FFD100;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col3 ul .segundocolor{
+        color:#FFD100;
+        padding-right: 4%;
+    }
+    .parte4 .color .col4 .flex .cont .circulo4{
+        width: 10px;
+        background: #E20613;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col4 ul .segundocolor{
+        color:#E20613;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 ul li{
+        display: flex;
+    }
+    .parte4 .color .col3 ul li p{
+        margin: 0;
+    }
+    /* parte5 */
+    .parte5{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .parte5 .caja1{
+        width: 100%;
+        padding: 6%;
+    }
+    .parte5 .caja1 h2{
+        color: white;
+        font-size: 35px;
+    }
+    .parte5 .caja1 p{
+        color: #FFFFFF;
+        opacity: 0.6;
+        font-size: 14px;
+    }
+    .parte5 .caja1 button{
+        background: transparent;
+        font-size: 17px;
+        border:0;
+        color: #22A75D;
+    }
+    .parte5 .caja2{
+        width: 100%;
+        background-image: url(../parte5/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 84%;
+        background-position: 79% 82%;
+    }
+    .parte5 .caja2 img{
+        width: 100%;
+    }
+}
+@media (min-width:450px) and (max-width: 575.98px) {
+    nav .botones{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+        padding: 9% 6%;
+    }
+    nav .icono a{
+        font-size: 35px;
+    }
+    nav .logo ul{
+        display: none;
+        color: white;
+    }
+    .principal .buscamovil{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    .principal .buscamovil ul{
+        text-align: center;
+        list-style: none;
+        padding: 8% 0;
+        margin: 0;
+    }
+    .principal .buscamovil ul a{
+        color: white;
+        text-decoration: none;
+        font-size: 31px;
+    }
+    /* parte1 */
+    .parte1{
+        color: white;
+    }
+    .parte1 .textoparte1{
+        padding: 2% 7%;
+    }
+    .parte1 .textoparte1 .p1{
+        font-size: 16px;
+        color: #2B3087;
+    }
+    .parte1 .textoparte1 h1{
+        color: white;
+        font-size: 44px;
+    }
+    .parte1 .textoparte1 .p2{
+        color: #DDE2FF;
+        opacity: 0.6;
+        font-size: 18px;
+    }
+    .parte1 .textoparte1 a button{
+        background: #22A75D;
+        box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+        border-radius: 52px;
+        border: 0;
+        color: white;
+        font-size: 15px;
+        padding: 3% 10%;
+    }
+    .parte1 .imagenparte1 .m1{
+        display: none;
+    }
+    /* parte2 */
+    .parte2{
+        color: white;
+        padding: 2% 4%;
+    }
+    .parte2 .caja1{
+        background: #171B29;
+        padding: 6%;
+        margin-bottom: 8%;
+        border-radius: 15px;
+    }
+    .parte2 .caja1 img{
+        color: wheat;
+    }
+    .parte2 .caja1 h2{
+        font-size: 35px;
+    }
+    .parte2 .caja1 h2 a{
+        color: #22A75D;
+    }
+    .parte2 .caja1 p{
+    color: #FFFFFF;
+    font-size: 23px;
+    opacity: 0.5;
+    }
+    .parte2 .caja1 .a2{
+        color: #22A75D;
+        text-decoration: none;
+        font-size: 23px;
+    }
+    .parte2 .caja2{
+        background: #171B29;
+        padding: 6%;
+        border-radius: 15px;
+    }
+    .parte2 .caja2 img{
+        color: wheat;
+    }
+    .parte2 .caja2 h2{
+        font-size: 35px;
+    }
+    .parte2 .caja2 h2 a{
+        color: #2278D4;
+    }
+    .parte2 .caja2 p{
+        color: #FFFFFF;
+        opacity: 0.5;
+        font-size: 22px;
+    }
+    .parte2 .caja2 .a2{
+        color: #2278D4;
+        text-decoration: none;
+        font-size: 23px;
+    }
+    /* parte3 */
+    .parte3{
+        padding: 7% 0 0 0;
+    }
+    .parte3 .caja1{
+    width: 100%;
+    }
+    .parte3 .caja1 img{
+        width: 100%;
+        transform: scaleX(-1);
+    }
+    .parte3 .caja2{
+        background: #FFFFFF;
+        border-radius: 0 191px 0 0;
+        color: black;
+    }
+    .parte3 .caja2 div{
+        padding: 9% 4%;
+    }
+    .parte3 .caja2 h2{
+        width: 70%;
+        font-size: 40px;
+    }
+    .parte3 .caja2 h6{
+        font-size: 19px;
+    }
+    .parte3 .caja2 p{
+        font-size: 18px;
+    }
+    /* parte4 */
+    .parte4 .color .col1 .flex, .parte4 .color .col2 .flex, .parte4 .color .col3 .flex, .parte4 .color .col4 .flex{
+        display: flex;
+        color: white;
+        align-items: center;
+    }
+    .parte4 .color .col1, .parte4 .color .col2, .parte4 .color .col3, .parte4 .color .col4 {
+        padding: 5% 0;
+    }
+    .parte4 .color .col1 .flex img, .parte4 .color .col2 .flex img, .parte4 .color .col3 .flex img, .parte4 .color .col4 .flex img{
+        width: 40%;
+    }
+    .parte4 .color .col1 .flex .cont .circulo1{
+        width: 15px;
+        background: #22A75D;
+        height: 15px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col1 ul, .parte4 .color .col2 ul, .parte4 .color .col3 ul, .parte4 .color .col4 ul{
+        list-style: none;
+        padding: 0 0 0 10%;
+        font-size: 19px;
+        color: white;
+        margin: 0;
+    }
+    .parte4 .color .col1 ul .primercolor{
+        color:#22A75D;
+        padding-right: 4%;
+    }
+
+    .parte4 .color .col2 .flex .cont .circulo2{
+        width: 15px;
+        background: #2278D4;
+        height: 15px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col2 ul .segundocolor{
+        color:#2278D4;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 .flex .cont .circulo3{
+        width: 15px;
+        background: #FFD100;
+        height: 15px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col3 ul .segundocolor{
+        color:#FFD100;
+        padding-right: 4%;
+    }
+    .parte4 .color .col4 .flex .cont .circulo4{
+        width: 15px;
+        background: #E20613;
+        height: 15px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col4 ul .segundocolor{
+        color:#E20613;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 ul li{
+        display: flex;
+    }
+    .parte4 .color .col3 ul li p{
+        margin: 0;
+    }
+    /* parte5 */
+    .parte5{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .parte5 .caja1{
+        width: 100%;
+        padding: 6%;
+    }
+    .parte5 .caja1 h2{
+        color: white;
+        font-size: 45px;
+    }
+    .parte5 .caja1 p{
+        color: #FFFFFF;
+        opacity: 0.6;
+        font-size: 18px;
+    }
+    .parte5 .caja1 button{
+        background: transparent;
+        font-size: 17px;
+        border:0;
+        color: #22A75D;
+    }
+    .parte5 .caja2{
+        width: 100%;
+        background-image: url(../parte5/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 84%;
+        background-position: 79% 82%;
+    }
+    .parte5 .caja2 img{
+        width: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    nav .botones{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+        padding: 9% 6%;
+    }
+    nav .icono a{
+        font-size: 35px;
+    }
+    nav .logo ul{
+        display: none;
+        color: white;
+    }
+    .principal .buscamovil{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    .principal .buscamovil ul{
+        text-align: center;
+        list-style: none;
+        padding: 8% 0;
+        margin: 0;
+    }
+    .principal .buscamovil ul a{
+        color: white;
+        text-decoration: none;
+        font-size: 31px;
+    }
+    /* parte1 */
+    .parte1{
+        color: white;
+    }
+    .parte1 .textoparte1{
+        padding: 2% 7%;
+    }
+    .parte1 .textoparte1 .p1{
+        font-size: 20px;
+        color: #2B3087;
+    }
+    .parte1 .textoparte1 h1{
+        color: white;
+        font-size: 57px;
+    }
+    .parte1 .textoparte1 .p2{
+        color: #DDE2FF;
+        opacity: 0.6;
+        font-size: 23px;
+    }
+    .parte1 .textoparte1 a button{
+        background: #22A75D;
+        box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+        border-radius: 52px;
+        border: 0;
+        color: white;
+        font-size: 19px;
+        padding: 3% 10%;
+    }
+    .parte1 .imagenparte1 .m1{
+        display: none;
+    }
+    /* parte2 */
+    .parte2{
+        color: white;
+        padding: 2% 4%;
+    }
+    .parte2 .caja1{
+        background: #171B29;
+        padding: 6%;
+        margin-bottom: 8%;
+        border-radius: 15px;
+    }
+    .parte2 .caja1 img{
+        color: wheat;
+    }
+    .parte2 .caja1 h2{
+        font-size: 50px;
+    }
+    .parte2 .caja1 h2 a{
+        color: #22A75D;
+    }
+    .parte2 .caja1 p{
+    color: #FFFFFF;
+    font-size: 29px;
+    opacity: 0.5;
+    }
+    .parte2 .caja1 .a2{
+        color: #22A75D;
+        text-decoration: none;
+        font-size: 28px;
+    }
+    .parte2 .caja2{
+        background: #171B29;
+        padding: 6%;
+        border-radius: 15px;
+    }
+    .parte2 .caja2 img{
+        color: wheat;
+    }
+    .parte2 .caja2 h2{
+        font-size: 45px;
+    }
+    .parte2 .caja2 h2 a{
+        color: #2278D4;
+    }
+    .parte2 .caja2 p{
+        color: #FFFFFF;
+        opacity: 0.5;
+        font-size: 28px;
+    }
+    .parte2 .caja2 .a2{
+        color: #2278D4;
+        text-decoration: none;
+        font-size: 28px;
+    }
+    /* parte3 */
+    .parte3{
+        padding: 7% 0 0 0;
+    }
+    .parte3 .caja1{
+    width: 100%;
+    }
+    .parte3 .caja1 img{
+        width: 100%;
+        transform: scaleX(-1);
+    }
+    .parte3 .caja2{
+        background: #FFFFFF;
+        border-radius: 0 249px 0 0;
+        color: black;
+    }
+    .parte3 .caja2 div{
+        padding: 9% 4%;
+    }
+    .parte3 .caja2 h2{
+        width: 70%;
+        font-size: 52px;
+    }
+    .parte3 .caja2 h6{
+        font-size: 24px;
+    }
+    .parte3 .caja2 p{
+        font-size: 23px;
+    }
+    /* parte4 */
+    .parte4 .color .col1 .flex, .parte4 .color .col2 .flex, .parte4 .color .col3 .flex, .parte4 .color .col4 .flex{
+        display: flex;
+        color: white;
+        align-items: center;
+    }
+    .parte4 .color .col1, .parte4 .color .col2, .parte4 .color .col3, .parte4 .color .col4 {
+        padding: 5% 0;
+    }
+    .parte4 .color .col1 .flex img, .parte4 .color .col2 .flex img, .parte4 .color .col3 .flex img, .parte4 .color .col4 .flex img{
+        width: 40%;
+    }
+    .parte4 .color .col1 .flex .cont .circulo1{
+        width: 15px;
+        background: #22A75D;
+        height: 15px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col1 ul, .parte4 .color .col2 ul, .parte4 .color .col3 ul, .parte4 .color .col4 ul{
+        list-style: none;
+        padding: 0 0 0 10%;
+        font-size: 26px;
+        color: white;
+        margin: 0;
+    }
+    .parte4 .color .col1 ul .primercolor{
+        color:#22A75D;
+        padding-right: 4%;
+    }
+
+    .parte4 .color .col2 .flex .cont .circulo2{
+        width: 15px;
+        background: #2278D4;
+        height: 15px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col2 ul .segundocolor{
+        color:#2278D4;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 .flex .cont .circulo3{
+        width: 15px;
+        background: #FFD100;
+        height: 15px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col3 ul .segundocolor{
+        color:#FFD100;
+        padding-right: 4%;
+    }
+    .parte4 .color .col4 .flex .cont .circulo4{
+        width: 15px;
+        background: #E20613;
+        height: 15px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col4 ul .segundocolor{
+        color:#E20613;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 ul li{
+        display: flex;
+    }
+    .parte4 .color .col3 ul li p{
+        margin: 0;
+    }
+    /* parte5 */
+    .parte5{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .parte5 .caja1{
+        width: 100%;
+        padding: 6%;
+    }
+    .parte5 .caja1 h2{
+        color: white;
+        font-size: 58px;
+    }
+    .parte5 .caja1 p{
+        color: #FFFFFF;
+        opacity: 0.6;
+        font-size: 23px;
+    }
+    .parte5 .caja1 button{
+        background: transparent;
+        font-size: 23px;
+        border:0;
+        color: #22A75D;
+    }
+    .parte5 .caja2{
+        width: 100%;
+        background-image: url(../parte5/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 84%;
+        background-position: 79% 82%;
+    }
+    .parte5 .caja2 img{
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .principal nav .icono{
+        display: none;
+    }
+    .principal nav .logo ul{
+        gap: 12px;
+        font-size: 10px;
+        padding: 0;
+    }
+    .principal nav{
+        justify-content: space-between;
+        padding: 3% 5%;
+    }
+    .principal nav .logo .logo1{
+        width: 23%;
+    }
+    .principal nav .botones{
+        width: 30%;
+        text-align: end;
+    }
+    .principal nav .botones a .bt1{
+        font-size: 14px;
+    }
+    .principal nav .botones a .bt2{
+        padding: 1% 7%;
+        font-size: 14px;
+    }
+    /* parte1 */
+    .parte1{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 15%;
+    }
+    .parte1 .textoparte1{
+        width: 40%;
+    }
+    .parte1 .textoparte1 .p1{
+        font-size: 12px;
+        color: #2B3087;
+    }
+    .parte1 .textoparte1 h1{
+        color: white;
+        font-size: 22px;
+    }
+    .parte1 .textoparte1 .p2{
+        color: #DDE2FF;
+        opacity: 0.6;
+        font-size: 8px;
+    }
+    .parte1 .textoparte1 a button{
+        background: #22A75D;
+        box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+        border-radius: 52px;
+        border: 0;
+        color: white;
+        font-size: 11px;
+        padding: 3% 10%;
+    }
+    .parte1 .imagenparte1{
+        width: 60%;
+        padding: 4% 0;
+    }
+    .parte1 .imagenparte1 .m2{
+        display: none;
+    }
+    /* parte2 */
+    .parte2{
+        color: white;
+        padding: 9% 4%;
+        display: flex;
+        position: relative;
+    }
+    .parte2 .caja1{
+        background: #171B29;
+        padding: 3%;
+        border-radius: 15px;
+        width: 40%;
+    }
+    .parte2 .caja1 img{
+        width: 15%;
+    }
+    .parte2 .caja1 h2{
+        font-size: 15px;
+    }
+    .parte2 .caja1 h2 a{
+        color: #22A75D;
+    }
+    .parte2 .caja1 p{
+    color: #FFFFFF;
+    font-size: 9px;
+    opacity: 0.5;
+    }
+    .parte2 .caja1 .a2{
+        color: #22A75D;
+        text-decoration: none;
+        font-size: 7px;
+    }
+    .parte2 .caja2{
+        background: #171B29;
+        padding: 3%;
+        border-radius: 15px;
+        width: 40%;
+        top: 36%;
+        right: 5%;
+        position: absolute;
+    }
+    .parte2 .caja2 img{
+        width: 15%;
+    }
+    .parte2 .caja2 h2{
+        font-size: 15px;
+    }
+    .parte2 .caja2 h2 a{
+        color: #2278D4;
+    }
+    .parte2 .caja2 p{
+        color: #FFFFFF;
+        opacity: 0.5;
+        font-size: 8px;
+    }
+    .parte2 .caja2 .a2{
+        color: #2278D4;
+        text-decoration: none;
+        font-size: 7px;
+    }
+    /* parte3 */
+    .parte3{
+        padding: 7% 0 0 0;
+        display: flex;
+    }
+    .parte3 .caja1{
+    width: 50%;
+    }
+    .parte3 .caja1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .parte3 .caja2{
+        background: #FFFFFF;
+        border-radius: 150px 0px 0px 0px;
+        color: black;
+        width: 50%;
+    }
+    .parte3 .caja2 div{
+        padding: 30% 16% 13% 8%;
+    }
+    .parte3 .caja2 h2{
+        font-size: 24px;
+    }
+    .parte3 .caja2 h6{
+        font-size: 8px;
+        margin: 2% 0;
+    }
+    .parte3 .caja2 p{
+        font-size: 8px;
+    }
+    /* parte4 */
+    .parte4{
+        background: white;
+    }
+    .parte4 .color{
+        justify-content: center;
+        background-color: #0F1320;
+        display: flex;
+        border-radius: 0 100px 0 0;
+    }
+    .parte4 .color .col1 .flex, .parte4 .color .col2 .flex, .parte4 .color .col3 .flex, .parte4 .color .col4 .flex{
+        display: flex;
+        color: white;
+        align-items: center;
+    }
+    .parte4 .color .col1, .parte4 .color .col2, .parte4 .color .col3, .parte4 .color .col4 {
+        padding: 5% 0;
+    }
+    .parte4 .color .col1 .flex img, .parte4 .color .col2 .flex img, .parte4 .color .col3 .flex img, .parte4 .color .col4 .flex img{
+        width: 35%;
+    }
+    .parte4 .color .col1 .flex .cont .circulo1{
+        width: 10px;
+        background: #22A75D;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col1 ul, .parte4 .color .col2 ul, .parte4 .color .col3 ul, .parte4 .color .col4 ul{
+        list-style: none;
+        padding: 0 0 0 10%;
+        font-size: 8px;
+        color: white;
+        margin: 0;
+    }
+    .parte4 .color .col1 ul .primercolor{
+        color:#22A75D;
+        padding-right: 4%;
+    }
+
+    .parte4 .color .col2 .flex .cont .circulo2{
+        width: 10px;
+        background: #2278D4;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col2 ul .segundocolor{
+        color:#2278D4;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 .flex .cont .circulo3{
+        width: 10px;
+        background: #FFD100;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col3 ul .segundocolor{
+        color:#FFD100;
+        padding-right: 4%;
+    }
+    .parte4 .color .col4 .flex .cont .circulo4{
+        width: 10px;
+        background: #E20613;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col4 ul .segundocolor{
+        color:#E20613;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 ul li{
+        display: flex;
+    }
+    .parte4 .color .col3 ul li p{
+        margin: 0;
+    }
+    .parte4 .color .col3 .flex img{
+        width: 30%;
+    }
+    /* parte5 */
+    .parte5{
+        display: flex;
+        padding: 4% 6%;
+    }
+    .parte5 .caja1{
+        width: 40%;
+    }
+    .parte5 .caja1 h2{
+        color: white;
+        font-size: 24px;
+        margin: 0;
+        width: 80%;
+        display: inline;
+    }
+    .parte5 .caja1 p{
+        color: #FFFFFF;
+        opacity: 0.6;
+        font-size: 9px;
+        padding: 10% 0;
+    }
+    .parte5 .caja1 button{
+        background: transparent;
+        font-size: 17px;
+        border:0;
+        color: #22A75D;
+    }
+    .parte5 .caja2{
+        width: 60%;
+        background-image: url(../parte5/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 84%;
+        background-position: 79% 82%;
+    }
+    .parte5 .caja2 img{
+        width: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .principal nav .icono{
+        display: none;
+    }
+    .principal nav .logo ul{
+        gap: 18px;
+        font-size: 10px;
+        padding: 0;
+    }
+    .principal nav{
+        justify-content: space-between;
+        padding: 3% 5%;
+    }
+    .principal nav .logo .logo1{
+        width: 24%;
+    }
+    .principal nav .botones{
+        width: 30%;
+        text-align: end;
+    }
+    .principal nav .botones a .bt1{
+        font-size: 17px;
+    }
+    .principal nav .botones a .bt2{
+        padding: 1% 7%;
+        font-size: 17px;
+    }
+    /* parte1 */
+    .parte1{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 15%;
+    }
+    .parte1 .textoparte1{
+        width: 40%;
+    }
+    .parte1 .textoparte1 .p1{
+        font-size: 14px;
+        color: #2B3087;
+    }
+    .parte1 .textoparte1 h1{
+        color: white;
+        font-size: 28px;
+    }
+    .parte1 .textoparte1 .p2{
+        color: #DDE2FF;
+        opacity: 0.6;
+        font-size: 11px;
+    }
+    .parte1 .textoparte1 a button{
+        background: #22A75D;
+        box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+        border-radius: 52px;
+        border: 0;
+        color: white;
+        font-size: 11px;
+        padding: 3% 10%;
+    }
+    .parte1 .imagenparte1{
+        width: 60%;
+        padding: 2% 0;
+    }
+    .parte1 .imagenparte1 .m2{
+        display: none;
+    }
+    /* parte2 */
+    .parte2{
+        color: white;
+        padding: 9% 4%;
+        display: flex;
+        position: relative;
+    }
+    .parte2 .caja1{
+        background: #171B29;
+        padding: 3%;
+        border-radius: 15px;
+        width: 40%;
+    }
+    .parte2 .caja1 img{
+        width: 15%;
+    }
+    .parte2 .caja1 h2{
+        font-size: 21px;
+    }
+    .parte2 .caja1 h2 a{
+        color: #22A75D;
+    }
+    .parte2 .caja1 p{
+    color: #FFFFFF;
+    font-size: 12px;
+    opacity: 0.5;
+    }
+    .parte2 .caja1 .a2{
+        color: #22A75D;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .parte2 .caja2{
+        background: #171B29;
+        padding: 3%;
+        border-radius: 15px;
+        width: 40%;
+        top: 36%;
+        right: 5%;
+        position: absolute;
+    }
+    .parte2 .caja2 img{
+        width: 15%;
+    }
+    .parte2 .caja2 h2{
+        font-size: 21px;
+    }
+    .parte2 .caja2 h2 a{
+        color: #2278D4;
+    }
+    .parte2 .caja2 p{
+        color: #FFFFFF;
+        opacity: 0.5;
+        font-size: 10px;
+    }
+    .parte2 .caja2 .a2{
+        color: #2278D4;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    /* parte3 */
+    .parte3{
+        padding: 7% 0 0 0;
+        display: flex;
+    }
+    .parte3 .caja1{
+    width: 50%;
+    }
+    .parte3 .caja1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .parte3 .caja2{
+        background: #FFFFFF;
+        border-radius: 200px 0px 0px 0px;
+        color: black;
+        width: 50%;
+    }
+    .parte3 .caja2 div{
+        padding: 30% 16% 13% 8%;
+    }
+    .parte3 .caja2 h2{
+        font-size: 31px;
+    }
+    .parte3 .caja2 h6{
+        font-size: 11px;
+        margin: 2% 0;
+    }
+    .parte3 .caja2 p{
+        font-size: 11px;
+    }
+    /* parte4 */
+    .parte4{
+        background: white;
+    }
+    .parte4 .color{
+        justify-content: center;
+        background-color: #0F1320;
+        display: flex;
+        border-radius: 0 100px 0 0;
+    }
+    .parte4 .color .col1 .flex, .parte4 .color .col2 .flex, .parte4 .color .col3 .flex, .parte4 .color .col4 .flex{
+        display: flex;
+        color: white;
+        align-items: center;
+    }
+    .parte4 .color .col1, .parte4 .color .col2, .parte4 .color .col3, .parte4 .color .col4 {
+        padding: 5% 0;
+        width: 23%;
+    }
+    .parte4 .color .col1 .flex img, .parte4 .color .col2 .flex img, .parte4 .color .col3 .flex img, .parte4 .color .col4 .flex img{
+        width: 35%;
+    }
+    .parte4 .color .col1 .flex .cont .circulo1{
+        width: 10px;
+        background: #22A75D;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col1 ul, .parte4 .color .col2 ul, .parte4 .color .col3 ul, .parte4 .color .col4 ul{
+        list-style: none;
+        padding: 0 0 0 10%;
+        font-size: 10px;
+        color: white;
+        margin: 0;
+    }
+    .parte4 .color .col1 ul .primercolor{
+        color:#22A75D;
+        padding-right: 4%;
+    }
+
+    .parte4 .color .col2 .flex .cont .circulo2{
+        width: 10px;
+        background: #2278D4;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col2 ul .segundocolor{
+        color:#2278D4;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 .flex .cont .circulo3{
+        width: 10px;
+        background: #FFD100;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col3 ul .segundocolor{
+        color:#FFD100;
+        padding-right: 4%;
+    }
+    .parte4 .color .col4 .flex .cont .circulo4{
+        width: 10px;
+        background: #E20613;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col4 ul .segundocolor{
+        color:#E20613;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 ul li{
+        display: flex;
+    }
+    .parte4 .color .col3 ul li p{
+        margin: 0;
+    }
+    .parte4 .color .col3 .flex img{
+        width: 30%;
+    }
+    /* parte5 */
+    .parte5{
+        display: flex;
+        padding: 4% 6%;
+    }
+    .parte5 .caja1{
+        width: 40%;
+    }
+    .parte5 .caja1 h2{
+        color: white;
+        font-size: 33px;
+        margin: 0;
+        width: 80%;
+        display: inline;
+    }
+    .parte5 .caja1 p{
+        color: #FFFFFF;
+        opacity: 0.6;
+        font-size: 11px;
+        padding: 10% 0;
+    }
+    .parte5 .caja1 button{
+        background: transparent;
+        font-size: 17px;
+        border:0;
+        color: #22A75D;
+    }
+    .parte5 .caja2{
+        width: 60%;
+        background-image: url(../parte5/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 84%;
+        background-position: 79% 82%;
+    }
+    .parte5 .caja2 img{
+        width: 100%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    .principal nav .icono{
+        display: none;
+    }
+    .principal nav .logo ul{
+        gap: 24px;
+        font-size: 17px;
+        padding: 0;
+    }
+    .principal nav{
+        justify-content: space-between;
+        padding: 3% 5%;
+    }
+    .principal nav .logo .logo1{
+        width: 28%;
+    }
+    .principal nav .botones{
+        width: 30%;
+        text-align: end;
+    }
+    .principal nav .botones a .bt1{
+        font-size: 17px;
+    }
+    .principal nav .botones a .bt2{
+        padding: 1% 7%;
+        font-size: 17px;
+    }
+    /* parte1 */
+    .parte1{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 15%;
+    }
+    .parte1 .textoparte1{
+        width: 40%;
+    }
+    .parte1 .textoparte1 .p1{
+        font-size: 18px;
+        color: #2B3087;
+    }
+    .parte1 .textoparte1 h1{
+        color: white;
+        font-size: 34px;
+    }
+    .parte1 .textoparte1 .p2{
+        color: #DDE2FF;
+        opacity: 0.6;
+        font-size: 13px;
+    }
+    .parte1 .textoparte1 a button{
+        background: #22A75D;
+        box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+        border-radius: 52px;
+        border: 0;
+        color: white;
+        font-size: 16px;
+        padding: 3% 10%;
+    }
+    .parte1 .imagenparte1{
+        width: 60%;
+        padding: 2% 0;
+    }
+    .parte1 .imagenparte1 .m2{
+        display: none;
+    }
+    /* parte2 */
+    .parte2{
+        color: white;
+        padding: 9% 4%;
+        display: flex;
+        position: relative;
+    }
+    .parte2 .caja1{
+        background: #171B29;
+        padding: 3%;
+        border-radius: 15px;
+        width: 40%;
+    }
+    .parte2 .caja1 img{
+        width: 15%;
+    }
+    .parte2 .caja1 h2{
+        font-size: 25px;
+    }
+    .parte2 .caja1 h2 a{
+        color: #22A75D;
+    }
+    .parte2 .caja1 p{
+    color: #FFFFFF;
+    font-size: 14px;
+    opacity: 0.5;
+    }
+    .parte2 .caja1 .a2{
+        color: #22A75D;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .parte2 .caja2{
+        background: #171B29;
+        padding: 3%;
+        border-radius: 15px;
+        width: 40%;
+        top: 36%;
+        right: 5%;
+        position: absolute;
+    }
+    .parte2 .caja2 img{
+        width: 15%;
+    }
+    .parte2 .caja2 h2{
+        font-size: 25px;
+    }
+    .parte2 .caja2 h2 a{
+        color: #2278D4;
+    }
+    .parte2 .caja2 p{
+        color: #FFFFFF;
+        opacity: 0.5;
+        font-size: 13px;
+    }
+    .parte2 .caja2 .a2{
+        color: #2278D4;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    /* parte3 */
+    .parte3{
+        padding: 7% 0 0 0;
+        display: flex;
+    }
+    .parte3 .caja1{
+    width: 50%;
+    }
+    .parte3 .caja1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .parte3 .caja2{
+        background: #FFFFFF;
+        border-radius: 251px 0px 0px 0px;
+        color: black;
+        width: 50%;
+    }
+    .parte3 .caja2 div{
+        padding: 30% 16% 13% 8%;
+    }
+    .parte3 .caja2 h2{
+        font-size: 38px;
+    }
+    .parte3 .caja2 h6{
+        font-size: 13px;
+        margin: 2% 0;
+    }
+    .parte3 .caja2 p{
+        font-size: 13px;
+    }
+    /* parte4 */
+    .parte4{
+        background: white;
+    }
+    .parte4 .color{
+        justify-content: center;
+        background-color: #0F1320;
+        display: flex;
+        border-radius: 0 100px 0 0;
+    }
+    .parte4 .color .col1 .flex, .parte4 .color .col2 .flex, .parte4 .color .col3 .flex, .parte4 .color .col4 .flex{
+        display: flex;
+        color: white;
+        align-items: center;
+    }
+    .parte4 .color .col1, .parte4 .color .col2, .parte4 .color .col3, .parte4 .color .col4 {
+        padding: 5% 0;
+        width: 23%;
+    }
+    .parte4 .color .col1 .flex img, .parte4 .color .col2 .flex img, .parte4 .color .col3 .flex img, .parte4 .color .col4 .flex img{
+        width: 35%;
+    }
+    .parte4 .color .col1 .flex .cont .circulo1{
+        width: 10px;
+        background: #22A75D;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col1 ul, .parte4 .color .col2 ul, .parte4 .color .col3 ul, .parte4 .color .col4 ul{
+        list-style: none;
+        padding: 0 0 0 10%;
+        font-size: 13px;
+        color: white;
+        margin: 0;
+    }
+    .parte4 .color .col1 ul .primercolor{
+        color:#22A75D;
+        padding-right: 4%;
+    }
+
+    .parte4 .color .col2 .flex .cont .circulo2{
+        width: 10px;
+        background: #2278D4;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col2 ul .segundocolor{
+        color:#2278D4;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 .flex .cont .circulo3{
+        width: 10px;
+        background: #FFD100;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col3 ul .segundocolor{
+        color:#FFD100;
+        padding-right: 4%;
+    }
+    .parte4 .color .col4 .flex .cont .circulo4{
+        width: 10px;
+        background: #E20613;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col4 ul .segundocolor{
+        color:#E20613;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 ul li{
+        display: flex;
+    }
+    .parte4 .color .col3 ul li p{
+        margin: 0;
+    }
+    .parte4 .color .col3 .flex img{
+        width: 30%;
+    }
+    /* parte5 */
+    .parte5{
+        display: flex;
+        padding: 4% 6%;
+    }
+    .parte5 .caja1{
+        width: 40%;
+    }
+    .parte5 .caja1 h2{
+        color: white;
+        font-size: 42px;
+        margin: 0;
+        width: 80%;
+        display: inline;
+    }
+    .parte5 .caja1 p{
+        color: #FFFFFF;
+        opacity: 0.6;
+        font-size: 14px;
+        padding: 10% 0;
+    }
+    .parte5 .caja1 button{
+        background: transparent;
+        font-size: 17px;
+        border:0;
+        color: #22A75D;
+    }
+    .parte5 .caja2{
+        width: 60%;
+        background-image: url(../parte5/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 84%;
+        background-position: 79% 82%;
+    }
+    .parte5 .caja2 img{
+        width: 100%;
+    }
+}
+@media (min-width: 1400px) and (max-width:1699.98px){
+    .principal nav .icono{
+        display: none;
+    }
+    .principal nav .logo ul{
+        gap: 22px;
+        font-size: 22px;
+        padding: 0;
+    }
+    .principal nav{
+        justify-content: space-between;
+        padding: 3% 5%;
+    }
+    .principal nav .logo .logo1{
+        width: 25%;
+    }
+    .principal nav .botones{
+        width: 30%;
+        text-align: end;
+    }
+    .principal nav .botones a .bt1{
+        font-size: 30px;
+    }
+    .principal nav .botones a .bt2{
+        padding: 1% 7%;
+        font-size: 30px;
+    }
+    /* parte1 */
+    .parte1{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 15%;
+    }
+    .parte1 .textoparte1{
+        width: 40%;
+    }
+    .parte1 .textoparte1 .p1{
+        font-size: 22px;
+        color: #2B3087;
+    }
+    .parte1 .textoparte1 h1{
+        color: white;
+        font-size: 40px;
+    }
+    .parte1 .textoparte1 .p2{
+        color: #DDE2FF;
+        opacity: 0.6;
+        font-size: 15px;
+    }
+    .parte1 .textoparte1 a button{
+        background: #22A75D;
+        box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+        border-radius: 52px;
+        border: 0;
+        color: white;
+        font-size: 16px;
+        padding: 3% 10%;
+    }
+    .parte1 .imagenparte1{
+        width: 60%;
+        padding: 2% 0;
+    }
+    .parte1 .imagenparte1 .m2{
+        display: none;
+    }
+    /* parte2 */
+    .parte2{
+        color: white;
+        padding: 9% 4%;
+        display: flex;
+        position: relative;
+    }
+    .parte2 .caja1{
+        background: #171B29;
+        padding: 3%;
+        border-radius: 15px;
+        width: 40%;
+    }
+    .parte2 .caja1 img{
+        width: 15%;
+    }
+    .parte2 .caja1 h2{
+        font-size: 25px;
+    }
+    .parte2 .caja1 h2 a{
+        color: #22A75D;
+    }
+    .parte2 .caja1 p{
+    color: #FFFFFF;
+    font-size: 16px;
+    opacity: 0.5;
+    }
+    .parte2 .caja1 .a2{
+        color: #22A75D;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .parte2 .caja2{
+        background: #171B29;
+        padding: 3%;
+        border-radius: 15px;
+        width: 40%;
+        top: 36%;
+        right: 5%;
+        position: absolute;
+    }
+    .parte2 .caja2 img{
+        width: 15%;
+    }
+    .parte2 .caja2 h2{
+        font-size: 25px;
+    }
+    .parte2 .caja2 h2 a{
+        color: #2278D4;
+    }
+    .parte2 .caja2 p{
+        color: #FFFFFF;
+        opacity: 0.5;
+        font-size: 15px;
+    }
+    .parte2 .caja2 .a2{
+        color: #2278D4;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    /* parte3 */
+    .parte3{
+        padding: 7% 0 0 0;
+        display: flex;
+    }
+    .parte3 .caja1{
+    width: 50%;
+    }
+    .parte3 .caja1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .parte3 .caja2{
+        background: #FFFFFF;
+        border-radius: 300px 0px 0px 0px;
+        color: black;
+        width: 50%;
+    }
+    .parte3 .caja2 div{
+        padding: 30% 16% 13% 8%;
+    }
+    .parte3 .caja2 h2{
+        font-size: 44px;
+    }
+    .parte3 .caja2 h6{
+        font-size: 15px;
+        margin: 2% 0;
+    }
+    .parte3 .caja2 p{
+        font-size: 15px;
+    }
+    /* parte4 */
+    .parte4{
+        background: white;
+    }
+    .parte4 .color{
+        justify-content: center;
+        background-color: #0F1320;
+        display: flex;
+        border-radius: 0 150px 0 0;
+    }
+    .parte4 .color .col1 .flex, .parte4 .color .col2 .flex, .parte4 .color .col3 .flex, .parte4 .color .col4 .flex{
+        display: flex;
+        color: white;
+        align-items: center;
+    }
+    .parte4 .color .col1, .parte4 .color .col2, .parte4 .color .col3, .parte4 .color .col4 {
+        padding: 5% 0;
+        width: 23%;
+    }
+    .parte4 .color .col1 .flex img, .parte4 .color .col2 .flex img, .parte4 .color .col3 .flex img, .parte4 .color .col4 .flex img{
+        width: 35%;
+    }
+    .parte4 .color .col1 .flex .cont .circulo1{
+        width: 10px;
+        background: #22A75D;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col1 ul, .parte4 .color .col2 ul, .parte4 .color .col3 ul, .parte4 .color .col4 ul{
+        list-style: none;
+        padding: 0 0 0 10%;
+        font-size: 15px;
+        color: white;
+        margin: 0;
+    }
+    .parte4 .color .col1 ul .primercolor{
+        color:#22A75D;
+        padding-right: 4%;
+    }
+
+    .parte4 .color .col2 .flex .cont .circulo2{
+        width: 10px;
+        background: #2278D4;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col2 ul .segundocolor{
+        color:#2278D4;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 .flex .cont .circulo3{
+        width: 10px;
+        background: #FFD100;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col3 ul .segundocolor{
+        color:#FFD100;
+        padding-right: 4%;
+    }
+    .parte4 .color .col4 .flex .cont .circulo4{
+        width: 10px;
+        background: #E20613;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col4 ul .segundocolor{
+        color:#E20613;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 ul li{
+        display: flex;
+    }
+    .parte4 .color .col3 ul li p{
+        margin: 0;
+    }
+    .parte4 .color .col3 .flex img{
+        width: 30%;
+    }
+    /* parte5 */
+    .parte5{
+        display: flex;
+        padding: 4% 6%;
+    }
+    .parte5 .caja1{
+        width: 40%;
+    }
+    .parte5 .caja1 h2{
+        color: white;
+        font-size: 50px;
+        margin: 0;
+        width: 80%;
+        display: inline;
+    }
+    .parte5 .caja1 p{
+        color: #FFFFFF;
+        opacity: 0.6;
+        font-size: 16px;
+        padding: 10% 0;
+    }
+    .parte5 .caja1 button{
+        background: transparent;
+        font-size: 17px;
+        border:0;
+        color: #22A75D;
+    }
+    .parte5 .caja2{
+        width: 60%;
+        background-image: url(../parte5/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 84%;
+        background-position: 79% 82%;
+    }
+    .parte5 .caja2 img{
+        width: 100%;
+    }
+}
+@media (min-width: 1700px) and (max-width:1999.98px){
+    .principal nav .icono{
+        display: none;
+    }
+    .principal nav .logo ul{
+        gap: 22px;
+        font-size: 22px;
+        padding: 0;
+    }
+    .principal nav{
+        justify-content: space-between;
+        padding: 3% 5%;
+    }
+    .principal nav .logo .logo1{
+        width: 25%;
+    }
+    .principal nav .botones{
+        width: 30%;
+        text-align: end;
+    }
+    .principal nav .botones a .bt1{
+        font-size: 30px;
+    }
+    .principal nav .botones a .bt2{
+        padding: 1% 7%;
+        font-size: 30px;
+    }
+    /* parte1 */
+    .parte1{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 15%;
+    }
+    .parte1 .textoparte1{
+        width: 40%;
+    }
+    .parte1 .textoparte1 .p1{
+        font-size: 22px;
+        color: #2B3087;
+    }
+    .parte1 .textoparte1 h1{
+        color: white;
+        font-size: 48px;
+    }
+    .parte1 .textoparte1 .p2{
+        color: #DDE2FF;
+        opacity: 0.6;
+        font-size: 18px;
+    }
+    .parte1 .textoparte1 a button{
+        background: #22A75D;
+        box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+        border-radius: 52px;
+        border: 0;
+        color: white;
+        font-size: 16px;
+        padding: 3% 10%;
+    }
+    .parte1 .imagenparte1{
+        width: 60%;
+        padding: 2% 0;
+    }
+    .parte1 .imagenparte1 .m2{
+        display: none;
+    }
+    /* parte2 */
+    .parte2{
+        color: white;
+        padding: 9% 4%;
+        display: flex;
+        position: relative;
+    }
+    .parte2 .caja1{
+        background: #171B29;
+        padding: 3%;
+        border-radius: 15px;
+        width: 40%;
+    }
+    .parte2 .caja1 img{
+        width: 15%;
+    }
+    .parte2 .caja1 h2{
+        font-size: 32px;
+    }
+    .parte2 .caja1 h2 a{
+        color: #22A75D;
+    }
+    .parte2 .caja1 p{
+    color: #FFFFFF;
+    font-size: 19px;
+    opacity: 0.5;
+    }
+    .parte2 .caja1 .a2{
+        color: #22A75D;
+        text-decoration: none;
+        font-size: 22px;
+    }
+    .parte2 .caja2{
+        background: #171B29;
+        padding: 3%;
+        border-radius: 15px;
+        width: 40%;
+        top: 36%;
+        right: 5%;
+        position: absolute;
+    }
+    .parte2 .caja2 img{
+        width: 15%;
+    }
+    .parte2 .caja2 h2{
+        font-size: 32px;
+    }
+    .parte2 .caja2 h2 a{
+        color: #2278D4;
+    }
+    .parte2 .caja2 p{
+        color: #FFFFFF;
+        opacity: 0.5;
+        font-size: 18px;
+    }
+    .parte2 .caja2 .a2{
+        color: #2278D4;
+        text-decoration: none;
+        font-size: 22px;
+    }
+    /* parte3 */
+    .parte3{
+        padding: 7% 0 0 0;
+        display: flex;
+    }
+    .parte3 .caja1{
+    width: 50%;
+    }
+    .parte3 .caja1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .parte3 .caja2{
+        background: #FFFFFF;
+        border-radius: 350px 0px 0px 0px;
+        color: black;
+        width: 50%;
+    }
+    .parte3 .caja2 div{
+        padding: 30% 16% 13% 8%;
+    }
+    .parte3 .caja2 h2{
+        font-size: 54px;
+    }
+    .parte3 .caja2 h6{
+        font-size: 18px;
+        margin: 2% 0;
+    }
+    .parte3 .caja2 p{
+        font-size: 19px;
+    }
+    /* parte4 */
+    .parte4{
+        background: white;
+    }
+    .parte4 .color{
+        justify-content: center;
+        background-color: #0F1320;
+        display: flex;
+        border-radius: 0 250px 0 0;
+    }
+    .parte4 .color .col1 .flex, .parte4 .color .col2 .flex, .parte4 .color .col3 .flex, .parte4 .color .col4 .flex{
+        display: flex;
+        color: white;
+        align-items: center;
+    }
+    .parte4 .color .col1, .parte4 .color .col2, .parte4 .color .col3, .parte4 .color .col4 {
+        padding: 5% 0;
+        width: 23%;
+    }
+    .parte4 .color .col1 .flex img, .parte4 .color .col2 .flex img, .parte4 .color .col3 .flex img, .parte4 .color .col4 .flex img{
+        width: 35%;
+    }
+    .parte4 .color .col1 .flex .cont .circulo1{
+        width: 10px;
+        background: #22A75D;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col1 ul, .parte4 .color .col2 ul, .parte4 .color .col3 ul, .parte4 .color .col4 ul{
+        list-style: none;
+        padding: 0 0 0 10%;
+        font-size: 18px;
+        color: white;
+        margin: 0;
+    }
+    .parte4 .color .col1 ul .primercolor{
+        color:#22A75D;
+        padding-right: 4%;
+    }
+
+    .parte4 .color .col2 .flex .cont .circulo2{
+        width: 10px;
+        background: #2278D4;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col2 ul .segundocolor{
+        color:#2278D4;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 .flex .cont .circulo3{
+        width: 10px;
+        background: #FFD100;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col3 ul .segundocolor{
+        color:#FFD100;
+        padding-right: 4%;
+    }
+    .parte4 .color .col4 .flex .cont .circulo4{
+        width: 10px;
+        background: #E20613;
+        height: 10px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col4 ul .segundocolor{
+        color:#E20613;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 ul li{
+        display: flex;
+    }
+    .parte4 .color .col3 ul li p{
+        margin: 0;
+    }
+    .parte4 .color .col3 .flex img{
+        width: 30%;
+    }
+    /* parte5 */
+    .parte5{
+        display: flex;
+        padding: 4% 6%;
+    }
+    .parte5 .caja1{
+        width: 40%;
+    }
+    .parte5 .caja1 img{
+        width: 14%;
+    }
+    .parte5 .caja1 h2{
+        color: white;
+        font-size: 57px;
+        margin: 0;
+        width: 80%;
+        display: inline;
+    }
+    .parte5 .caja1 p{
+        color: #FFFFFF;
+        opacity: 0.6;
+        font-size: 20px;
+        padding: 10% 0;
+    }
+    .parte5 .caja1 button{
+        background: transparent;
+        font-size: 28px;
+        border:0;
+        color: #22A75D;
+    }
+    .parte5 .caja2{
+        width: 60%;
+        background-image: url(../parte5/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 84%;
+        background-position: 79% 82%;
+    }
+    .parte5 .caja2 img{
+        width: 100%;
+    }
+}
+@media (min-width: 2000px){
+    .principal nav .icono{
+        display: none;
+    }
+    .principal nav .logo ul{
+        gap: 40px;
+        font-size: 31px;
+        padding: 0;
+    }
+    .principal nav{
+        justify-content: space-between;
+        padding: 3% 5%;
+    }
+    .principal nav .logo .logo1{
+        width: 25%;
+    }
+    .principal nav .botones{
+        width: 30%;
+        text-align: end;
+    }
+    .principal nav .botones a .bt1{
+        font-size: 30px;
+    }
+    .principal nav .botones a .bt2{
+        padding: 1% 7%;
+        font-size: 30px;
+    }
+    /* parte1 */
+    .parte1{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 15%;
+    }
+    .parte1 .textoparte1{
+        width: 40%;
+    }
+    .parte1 .textoparte1 .p1{
+        font-size: 32px;
+        color: #2B3087;
+    }
+    .parte1 .textoparte1 h1{
+        color: white;
+        font-size: 56px;
+    }
+    .parte1 .textoparte1 .p2{
+        color: #DDE2FF;
+        opacity: 0.6;
+        font-size: 22px;
+    }
+    .parte1 .textoparte1 a button{
+        background: #22A75D;
+        box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+        border-radius: 52px;
+        border: 0;
+        color: white;
+        font-size: 28px;
+        padding: 3% 10%;
+    }
+    .parte1 .imagenparte1{
+        width: 60%;
+        padding: 2% 0;
+    }
+    .parte1 .imagenparte1 .m2{
+        display: none;
+    }
+    /* parte2 */
+    .parte2{
+        color: white;
+        padding: 9% 4%;
+        display: flex;
+        position: relative;
+    }
+    .parte2 .caja1{
+        background: #171B29;
+        padding: 3%;
+        border-radius: 15px;
+        width: 40%;
+    }
+    .parte2 .caja1 img{
+        width: 20%;
+    }
+    .parte2 .caja1 h2{
+        font-size: 41px;
+    }
+    .parte2 .caja1 h2 a{
+        color: #22A75D;
+    }
+    .parte2 .caja1 p{
+    color: #FFFFFF;
+    font-size: 25px;
+    opacity: 0.5;
+    }
+    .parte2 .caja1 .a2{
+        color: #22A75D;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    .parte2 .caja2{
+        background: #171B29;
+        padding: 3%;
+        border-radius: 15px;
+        width: 40%;
+        top: 36%;
+        right: 5%;
+        position: absolute;
+    }
+    .parte2 .caja2 img{
+        width: 20%;
+    }
+    .parte2 .caja2 h2{
+        font-size: 41px;
+    }
+    .parte2 .caja2 h2 a{
+        color: #2278D4;
+    }
+    .parte2 .caja2 p{
+        color: #FFFFFF;
+        opacity: 0.5;
+        font-size: 20px;
+    }
+    .parte2 .caja2 .a2{
+        color: #2278D4;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    /* parte3 */
+    .parte3{
+        padding: 7% 0 0 0;
+        display: flex;
+    }
+    .parte3 .caja1{
+    width: 50%;
+    }
+    .parte3 .caja1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .parte3 .caja2{
+        background: #FFFFFF;
+        border-radius: 410px 0px 0px 0px;
+        color: black;
+        width: 50%;
+    }
+    .parte3 .caja2 div{
+        padding: 30% 16% 13% 8%;
+    }
+    .parte3 .caja2 h2{
+        font-size: 63px;
+    }
+    .parte3 .caja2 h6{
+        font-size: 22px;
+        margin: 2% 0;
+    }
+    .parte3 .caja2 p{
+        font-size: 22px;
+    }
+    /* parte4 */
+    .parte4{
+        background: white;
+    }
+    .parte4 .color{
+        justify-content: center;
+        background-color: #0F1320;
+        display: flex;
+        border-radius: 0 300px 0 0;
+    }
+    .parte4 .color .col1 .flex, .parte4 .color .col2 .flex, .parte4 .color .col3 .flex, .parte4 .color .col4 .flex{
+        display: flex;
+        color: white;
+        align-items: center;
+    }
+    .parte4 .color .col1, .parte4 .color .col2, .parte4 .color .col3, .parte4 .color .col4 {
+        padding: 5% 0;
+        width: 23%;
+    }
+    .parte4 .color .col1 .flex img, .parte4 .color .col2 .flex img, .parte4 .color .col3 .flex img, .parte4 .color .col4 .flex img{
+        width: 35%;
+    }
+    .parte4 .color .col1 .flex .cont .circulo1{
+        width: 15px;
+        background: #22A75D;
+        height: 15px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col1 ul, .parte4 .color .col2 ul, .parte4 .color .col3 ul, .parte4 .color .col4 ul{
+        list-style: none;
+        padding: 0 0 0 10%;
+        font-size: 21px;
+        color: white;
+        margin: 0;
+    }
+    .parte4 .color .col1 ul .primercolor{
+        color:#22A75D;
+        padding-right: 4%;
+    }
+
+    .parte4 .color .col2 .flex .cont .circulo2{
+        width: 15px;
+        background: #2278D4;
+        height: 16px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col2 ul .segundocolor{
+        color:#2278D4;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 .flex .cont .circulo3{
+        width: 15px;
+        background: #FFD100;
+        height: 15px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col3 ul .segundocolor{
+        color:#FFD100;
+        padding-right: 4%;
+    }
+    .parte4 .color .col4 .flex .cont .circulo4{
+        width: 15px;
+        background: #E20613;
+        height: 15px;
+        margin-bottom: 4%;
+        border-radius: 10px;
+    }
+    .parte4 .color .col4 ul .segundocolor{
+        color:#E20613;
+        padding-right: 4%;
+    }
+    .parte4 .color .col3 ul li{
+        display: flex;
+    }
+    .parte4 .color .col3 ul li p{
+        margin: 0;
+    }
+    .parte4 .color .col3 .flex img{
+        width: 33%;
+    }
+    /* parte5 */
+    .parte5{
+        display: flex;
+        padding: 4% 6%;
+    }
+    .parte5 .caja1{
+        width: 40%;
+    }
+    .parte5 .caja1 img{
+        width: 14%;
+    }
+    .parte5 .caja1 h2{
+        color: white;
+        font-size: 69px;
+        margin: 0;
+        width: 80%;
+        display: inline;
+    }
+    .parte5 .caja1 p{
+        color: #FFFFFF;
+        opacity: 0.6;
+        font-size: 23px;
+        padding: 10% 0;
+    }
+    .parte5 .caja1 button{
+        background: transparent;
+        font-size: 28px;
+        border:0;
+        color: #22A75D;
+    }
+    .parte5 .caja2{
+        width: 60%;
+        background-image: url(../parte5/fondo.png);
+        background-repeat: no-repeat;
+        background-size: 84%;
+        background-position: 79% 82%;
+    }
+    .parte5 .caja2 img{
+        width: 100%;
+    }
+}
