@@ -6,6 +6,22 @@ body{
 }
 .principal{
     background-color: #0F1320;
+    position: relative;
+    z-index: 0;
+}
+.fondo1{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.fondo2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    z-index: -1;
 }
 nav{
     display: flex;
@@ -49,8 +65,34 @@ nav .icono a{
 .parte1 .imagenparte1 img{
     width: 100%;
 }
+/* parte 6 */
+.parte6 .cuadros{
+    position: relative;
+    overflow: hidden;
+}
+.parte6 .cuadros > .prime, .prime1{
+    display: none;
+}
+/* parte 7 */
+.parte7 .cuadros .absolu > div{
+    background: #171B29;
+    border-radius: 13px;
+    color: white;
+}
+.parte7 .cuadros{
+    padding: 0 8%;
+    position: relative;
+}
+.parte7 .cuadros .absolu > img{
+    position: absolute;
+    display: none;
+}
+/* parte 8 */
+.parte8{
+    display: none;
+}
 
-button{
+button:nth-child(4),button:nth-child(5){
     animation: vibrar-1 0.3s linear infinite both;
 }
 @keyframes vibrar-1{
@@ -95,7 +137,7 @@ h1{
     }
 }
 
-img{
+.parte1 .imagenparte1 img:nth-child(1){
     animation: rotate-center 0.6s ease-in-out both;
 }
 @keyframes rotate-center {
@@ -107,4 +149,99 @@ img{
       -webkit-transform: rotate(360deg);
               transform: rotate(360deg);
     }
-  }
+}
+
+  .unofooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .unofooter ul{
+        position: relative;
+        display: flex;
+        transform-style: preserve-3d;
+        /* transform: rotate(-25deg) skew(25deg); */
+    }
+    .unofooter ul a i{
+        color: white;
+    }
+    .unofooter ul li{
+        position: relative;
+        list-style: none;
+        width: 30px;
+        height: 32px;
+        margin: 0 10px;
+    }
+    .unofooter ul li::before{
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 0px;
+        width: 100%;
+        height: 5px;
+        background-color: #ffffff;
+        transform-origin: top;
+        transform: skew(-41deg);
+    }
+    .unofooter ul li::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -5px;
+        width: 5px;
+        height: 100%;
+        background-color: #ffffff;
+        transform-origin: right;
+        transform: skewY(-49deg);
+    }
+    .unofooter ul li span{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        background: #519144;
+        color: rgba(225, 225, 225, 0.2);
+        font-size: 21px !important;
+        transition: .2s;
+    }
+    .unofooter ul li:hover span{
+        z-index: 1000;
+        transition: 0.5s;
+        color: #fff;
+    }
+    .unofooter ul li:hover span:nth-child(5){
+        transform: translate(16px, -14px);
+        opacity: 1;
+    }
+    .unofooter ul li:hover span:nth-child(4){
+        transform: translate(12px, -10px);
+        opacity: .8;
+    }
+    .unofooter ul li:hover span:nth-child(3){
+        transform: translate(7px, -6px);
+        opacity: .6;
+    }
+    .unofooter ul li:hover span:nth-child(2){
+        transform: translate(3px, -3px);
+        opacity: .4;
+    }
+    .unofooter ul li:hover span:nth-child(1){
+        transform: translate(0px, 0px);
+        opacity: .2;
+    }
+    .unofooter ul li:nth-child(1):hover span{
+        background: #3b5999;
+    }
+    .unofooter ul li:nth-child(2):hover span{
+        background: #e4405f;
+    }
+    .unofooter ul li:nth-child(3):hover span{
+        background: #3b5999;
+    }
+    .unofooter ul li:nth-child(4):hover span{
+        background: #e4405f;
+    }

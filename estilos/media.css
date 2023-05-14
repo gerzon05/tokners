@@ -247,6 +247,101 @@
     .parte5 .caja2 img{
         width: 100%;
     }
+        /* parte 6 */
+        .parte6 .cuadros .prime1{
+            display: block;
+            width: 100%;
+        }
+        .parte6 .cuadros .flex{
+            position: absolute;
+            top: 26%;
+            width: 250%;
+            left: -65%;
+        }
+        .parte6 .cuadros .flex .absolu{
+            display: flex;
+            position: relative;
+            justify-content: center;
+        }
+        .parte6 .cuadros .prime{
+            width: 100%;
+        }
+        .parte6 .cuadros .titulo{
+            position: absolute;
+            top: 13%;
+            color: white;
+            text-align: center;
+            font-size: 31px;
+            width: 100%;
+        }
+        .parte6 .cuadros .uno, .parte6 .cuadros .dos, .parte6 .cuadros .tres{
+            background: white;
+            position: absolute;
+            border-radius: 15px;
+            margin-left: -8%;
+            text-align: center;
+            width: 20%;
+            padding: 7% 6%;
+        }
+        .parte6 .cuadros .uno img,.parte6 .cuadros .dos img, .parte6 .cuadros .tres img{
+            width: 57%;
+        }
+        .parte6 .cuadros .uno h2,.parte6 .cuadros .dos h2, .parte6 .cuadros .tres h2{
+            margin: 7% 0;
+            font-size: 28px;
+        }
+        .parte6 .cuadros .uno p,.parte6 .cuadros .dos p,.parte6 .cuadros .tres p{
+            font-size: 13px;
+        }
+        .parte6 .cuadros .uno .marge,.parte6 .cuadros .dos .marge,.parte6 .cuadros .tres .marge{
+            margin-bottom: 20%;
+        }
+        .parte6 .cuadros .flex .uno{
+            left: 4%;
+        }
+        .parte6 .cuadros .flex .tres{
+            right: 4%;
+        }
+
+    /* parte 7 */
+    .parte7 .cuadros h2{
+        font-size: 27px;
+        color: white;
+        text-align: center;
+    }
+    .parte7 .cuadros .primero{
+        position: absolute;
+        top: 35%;
+        left: 42%;
+        background: #0F1320;
+        border-radius: 25px;
+        padding: 5%;
+    }
+    .parte7 .cuadros .segundo{
+        position: absolute;
+        top: 66%;
+        left: 42%;
+        background: #0F1320;
+        border-radius: 25px;
+        padding: 5%;
+    }
+    .parte7 .cuadros .absolu{
+        display: grid;
+        gap: 10px;
+    }
+    .parte7 .cuadros .absolu > div{
+        font-size: 10px;
+    }
+    .parte7 .cuadros .absolu p{
+        font-size: 11px;
+        padding: 17% 19%;
+    }
+    /* footer */
+    footer .piedepagina{
+        padding: 8% 0;
+        color: white;
+        text-align: center;
+    }
 }
 @media (min-width:350px) and (max-width: 449.98px){
     nav .botones{
@@ -496,6 +591,101 @@
     }
     .parte5 .caja2 img{
         width: 100%;
+    }
+        /* parte 6 */
+        .parte6 .cuadros .prime1{
+            display: block;
+            width: 100%;
+        }
+        .parte6 .cuadros .flex{
+            position: absolute;
+            top: 26%;
+            width: 250%;
+            left: -65%;
+            /* overflow: hidden; */
+        }
+        .parte6 .cuadros .flex .absolu{
+            display: flex;
+            position: relative;
+            justify-content: center;
+        }
+        .parte6 .cuadros .prime{
+            width: 100%;
+        }
+        .parte6 .cuadros .titulo{
+            position: absolute;
+            top: 13%;
+            color: white;
+            text-align: center;
+            font-size: 31px;
+            width: 100%;
+        }
+        .parte6 .cuadros .uno, .parte6 .cuadros .dos, .parte6 .cuadros .tres{
+            background: white;
+            position: absolute;
+            border-radius: 15px;
+            margin-left: -8%;
+            text-align: center;
+            width: 20%;
+            padding: 4% 6%;
+        }
+        .parte6 .cuadros .uno img,.parte6 .cuadros .dos img, .parte6 .cuadros .tres img{
+            width: 57%;
+        }
+        .parte6 .cuadros .uno h2,.parte6 .cuadros .dos h2, .parte6 .cuadros .tres h2{
+            margin: 7% 0;
+            font-size: 31px;
+        }
+        .parte6 .cuadros .uno p,.parte6 .cuadros .dos p,.parte6 .cuadros .tres p{
+            font-size: 15px;
+        }
+        .parte6 .cuadros .uno .marge,.parte6 .cuadros .dos .marge,.parte6 .cuadros .tres .marge{
+            margin-bottom: 20%;
+        }
+        .parte6 .cuadros .flex .uno{
+            left: 4%;
+        }
+        .parte6 .cuadros .flex .tres{
+            right: 4%;
+        }
+    /* parte 7 */
+    .parte7 .cuadros h2{
+        font-size: 31px;
+        color: white;
+        text-align: center;
+    }
+    .parte7 .cuadros .primero{
+        position: absolute;
+        top: 35%;
+        left: 42%;
+        background: #0F1320;
+        border-radius: 25px;
+        padding: 5%;
+    }
+    .parte7 .cuadros .segundo{
+        position: absolute;
+        top: 66%;
+        left: 42%;
+        background: #0F1320;
+        border-radius: 25px;
+        padding: 5%;
+    }
+    .parte7 .cuadros .absolu{
+        display: grid;
+        gap: 10px;
+    }
+    .parte7 .cuadros .absolu div > p{
+        font-size: 13px;
+    }
+    .parte7 .cuadros .absolu p{
+        font-size: 11px;
+        padding: 17% 19%;
+    }
+    /* footer */
+    footer .piedepagina{
+        padding: 8% 0;
+        color: white;
+        text-align: center;
     }
 }
 @media (min-width:450px) and (max-width: 575.98px) {
@@ -748,6 +938,101 @@
     .parte5 .caja2 img{
         width: 100%;
     }
+        /* parte 6 */
+        .parte6 .cuadros .prime1{
+            display: block;
+            width: 100%;
+        }
+        .parte6 .cuadros .flex{
+            position: absolute;
+            top: 26%;
+            width: 250%;
+            left: -65%;
+        }
+        .parte6 .cuadros .flex .absolu{
+            display: flex;
+            position: relative;
+            justify-content: center;
+        }
+        .parte6 .cuadros .prime{
+            width: 100%;
+        }
+        .parte6 .cuadros .titulo{
+            position: absolute;
+            top: 13%;
+            color: white;
+            text-align: center;
+            font-size: 43px;
+            width: 100%;
+        }
+        .parte6 .cuadros .uno, .parte6 .cuadros .dos, .parte6 .cuadros .tres{
+            background: white;
+            position: absolute;
+            border-radius: 15px;
+            margin-left: -8%;
+            text-align: center;
+            width: 20%;
+            padding: 4% 6%;
+        }
+        .parte6 .cuadros .uno img,.parte6 .cuadros .dos img, .parte6 .cuadros .tres img{
+            width: 57%;
+        }
+        .parte6 .cuadros .uno h2,.parte6 .cuadros .dos h2, .parte6 .cuadros .tres h2{
+            margin: 7% 0;
+            font-size: 37px;
+        }
+        .parte6 .cuadros .uno p,.parte6 .cuadros .dos p,.parte6 .cuadros .tres p{
+            font-size: 19px;
+        }
+        .parte6 .cuadros .uno .marge,.parte6 .cuadros .dos .marge,.parte6 .cuadros .tres .marge{
+            margin-bottom: 20%;
+        }
+        .parte6 .cuadros .flex .uno{
+            left: 4%;
+        }
+        .parte6 .cuadros .flex .tres{
+            right: 4%;
+        }
+    /* parte 7 */
+    .parte7 .cuadros h2{
+        font-size: 36px;
+        color: white;
+        text-align: center;
+    }
+    .parte7 .cuadros .primero{
+        position: absolute;
+        top: 35%;
+        left: 42%;
+        background: #0F1320;
+        border-radius: 40px;
+        padding: 5%;
+    }
+    .parte7 .cuadros .segundo{
+        position: absolute;
+        top: 66%;
+        left: 42%;
+        background: #0F1320;
+        border-radius: 40px;
+        padding: 5%;
+    }
+    .parte7 .cuadros .absolu{
+        display: grid;
+        gap: 15px;
+    }
+    .parte7 .cuadros .absolu div > p{
+        font-size: 16px;
+    }
+    .parte7 .cuadros .absolu p{
+        font-size: 11px;
+        padding: 17% 19%;
+    }
+    /* footer */
+    footer .piedepagina{
+        padding: 8% 0;
+        font-size: 21px;
+        color: white;
+        text-align: center;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px){
     nav .botones{
@@ -998,6 +1283,101 @@
     }
     .parte5 .caja2 img{
         width: 100%;
+    }
+        /* parte 6 */
+        .parte6 .cuadros .prime1{
+            display: block;
+            width: 100%;
+        }
+        .parte6 .cuadros .flex{
+            position: absolute;
+            top: 26%;
+            width: 250%;
+            left: -65%;
+        }
+        .parte6 .cuadros .flex .absolu{
+            display: flex;
+            position: relative;
+            justify-content: center;
+        }
+        .parte6 .cuadros .prime{
+            width: 100%;
+        }
+        .parte6 .cuadros .titulo{
+            position: absolute;
+            top: 13%;
+            color: white;
+            text-align: center;
+            font-size: 58px;
+            width: 100%;
+        }
+        .parte6 .cuadros .uno, .parte6 .cuadros .dos, .parte6 .cuadros .tres{
+            background: white;
+            position: absolute;
+            border-radius: 15px;
+            margin-left: -8%;
+            text-align: center;
+            width: 20%;
+            padding: 4% 6%;
+        }
+        .parte6 .cuadros .uno img,.parte6 .cuadros .dos img, .parte6 .cuadros .tres img{
+            width: 57%;
+        }
+        .parte6 .cuadros .uno h2,.parte6 .cuadros .dos h2, .parte6 .cuadros .tres h2{
+            margin: 7% 0;
+            font-size: 50px;
+        }
+        .parte6 .cuadros .uno p,.parte6 .cuadros .dos p,.parte6 .cuadros .tres p{
+            font-size: 25px;
+        }
+        .parte6 .cuadros .uno .marge,.parte6 .cuadros .dos .marge,.parte6 .cuadros .tres .marge{
+            margin-bottom: 20%;
+        }
+        .parte6 .cuadros .flex .uno{
+            left: 4%;
+        }
+        .parte6 .cuadros .flex .tres{
+            right: 4%;
+        }
+    /* parte 7 */
+    .parte7 .cuadros h2{
+        font-size: 54px;
+        color: white;
+        text-align: center;
+    }
+    .parte7 .cuadros .primero{
+        position: absolute;
+        top: 37%;
+        left: 42%;
+        background: #0F1320;
+        border-radius: 50px;
+        padding: 5%;
+    }
+    .parte7 .cuadros .segundo{
+        position: absolute;
+        top: 67%;
+        left: 42%;
+        background: #0F1320;
+        border-radius: 50px;
+        padding: 5%;
+    }
+    .parte7 .cuadros .absolu{
+        display: grid;
+        gap: 10px;
+    }
+    .parte7 .cuadros .absolu div > p{
+        font-size: 21px;
+    }
+    .parte7 .cuadros .absolu p{
+        font-size: 11px;
+        padding: 17% 19%;
+    }
+    /* footer */
+    footer .piedepagina{
+        padding: 8% 0;
+        font-size: 26px;
+        color: white;
+        text-align: center;
     }
 }
 @media (min-width: 768px) and (max-width: 991.98px){
@@ -1276,6 +1656,145 @@
     }
     .parte5 .caja2 img{
         width: 100%;
+    }
+    /* parte 6 */
+    .parte6 .cuadros .prime{
+        display: block;
+    }
+    .parte6 .cuadros .flex{
+        position: absolute;
+        top: 34%;
+        justify-content: center;
+        width: 100%;
+    }
+    .parte6 .cuadros .flex .absolu{
+        display: flex;
+        position: relative;
+        gap: 20px;
+        justify-content: center;
+    }
+    .parte6 .cuadros .prime{
+        width: 100%;
+    }
+    .parte6 .cuadros .titulo{
+        position: absolute;
+        top: 28%;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .parte6 .cuadros .uno, .parte6 .cuadros .dos, .parte6 .cuadros .tres{
+        background: white;
+        position: absolute;
+        border-radius: 15px;
+        text-align: center;
+        width: 17%;
+        padding: 3% 6%;
+    }
+    .parte6 .cuadros .uno img,.parte6 .cuadros .dos img, .parte6 .cuadros .tres img{
+        width: 57%;
+    }
+    .parte6 .cuadros .uno h2,.parte6 .cuadros .dos h2, .parte6 .cuadros .tres h2{
+        margin: 7% 0;
+        font-size: 25px;
+    }
+    .parte6 .cuadros .uno p,.parte6 .cuadros .dos p,.parte6 .cuadros .tres p{
+        font-size: 11px;
+    }
+    .parte6 .cuadros .uno .marge,.parte6 .cuadros .dos .marge,.parte6 .cuadros .tres .marge{
+        margin-bottom: 20%;
+    }
+    .parte6 .cuadros .flex .uno{
+        left: 4%;
+    }
+    .parte6 .cuadros .flex .dos{
+    margin-top: 7%;
+    }
+    .parte6 .cuadros .flex .tres{
+        right: 4%;
+    }
+   /* parte 7 */
+   .parte7 .cuadros h2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    }
+    .parte7 .cuadros .primero{
+        display: none;
+    }
+    .parte7 .cuadros .segundo{
+        display: none;
+    }
+    
+    .parte7 .cuadros .absolu > img{
+        width: 6%;
+        display: block;
+        top: 42%;
+        z-index: 1;
+    }
+    .parte7 .cuadros .absolu > img:nth-child(1){
+        left: 30%;
+        width: 6%;
+    }
+    .parte7 .cuadros .absolu > img:nth-child(2){
+        left: 64%;
+        width: 6%;
+    }
+
+    .parte7 .cuadros .absolu{
+        display: flex;
+        gap: 10px;
+        position: relative;
+        width: 100%;
+    }
+    .parte7 .cuadros .absolu > div {
+        width: 32%;
+    }
+    .parte7 .cuadros .absolu div > p{
+        font-size: 11px;
+        padding: 14% 12%;
+    }
+    .parte7 .cuadros .absolu .uno{
+        left: 0;
+        position: absolute;
+    }
+    .parte7 .cuadros .absolu .dos{
+        margin-top: 5%;
+        margin-left: 34%;
+    }
+    .parte7 .cuadros .absolu .tres{
+        right: 0;
+        position: absolute;
+    }
+    /* parte 8 */
+    .parte8{
+        display: block;
+        padding: 5% 10%;
+    }
+    .parte8 .contenido{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .parte8 .contenido a{
+        color: white;
+    }
+    /* footer */
+    footer .piedepagina{
+        align-items: center;
+        gap: 20px;
+        padding: 8% 0;
+        justify-content: center;
+        font-size: 9px;
+        color: white;
+        text-align: center;
+        display: flex;
+    }
+    footer .piedepagina .textopiedepagina{
+        text-align: end;
+    }
+    footer .piedepagina .textopiedepagina img{
+        width: 8%;
     }
 }
 @media (min-width: 992px) and (max-width: 1199.98px){
@@ -1556,6 +2075,144 @@
     .parte5 .caja2 img{
         width: 100%;
     }
+        /* parte 6 */
+        .parte6 .cuadros .prime{
+            display: block;
+        }
+        .parte6 .cuadros .flex{
+            position: absolute;
+            top: 34%;
+            justify-content: center;
+            width: 100%;
+        }
+        .parte6 .cuadros .flex .absolu{
+            display: flex;
+            position: relative;
+            gap: 20px;
+            justify-content: center;
+        }
+        .parte6 .cuadros .prime{
+            width: 100%;
+        }
+        .parte6 .cuadros .titulo{
+            position: absolute;
+            top: 28%;
+            color: white;
+            text-align: center;
+            width: 100%;
+        }
+        .parte6 .cuadros .uno, .parte6 .cuadros .dos, .parte6 .cuadros .tres{
+            background: white;
+            position: absolute;
+            border-radius: 15px;
+            text-align: center;
+            width: 17%;
+            padding: 3% 6%;
+        }
+        .parte6 .cuadros .uno img,.parte6 .cuadros .dos img, .parte6 .cuadros .tres img{
+            width: 57%;
+        }
+        .parte6 .cuadros .uno h2,.parte6 .cuadros .dos h2, .parte6 .cuadros .tres h2{
+            margin: 7% 0;
+            font-size: 25px;
+        }
+        .parte6 .cuadros .uno p,.parte6 .cuadros .dos p,.parte6 .cuadros .tres p{
+            font-size: 11px;
+        }
+        .parte6 .cuadros .uno .marge,.parte6 .cuadros .dos .marge,.parte6 .cuadros .tres .marge{
+            margin-bottom: 20%;
+        }
+        .parte6 .cuadros .flex .uno{
+            left: 4%;
+        }
+        .parte6 .cuadros .flex .dos{
+        margin-top: 7%;
+        }
+        .parte6 .cuadros .flex .tres{
+            right: 4%;
+        }
+   /* parte 7 */
+   .parte7 .cuadros h2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    }
+    .parte7 .cuadros .primero{
+        display: none;
+    }
+    .parte7 .cuadros .segundo{
+        display: none;
+    }
+    
+    .parte7 .cuadros .absolu > img{
+        display: block;
+        top: 39%;
+        z-index: 1;
+    }
+    .parte7 .cuadros .absolu > img:nth-child(1){
+        left: 30%;
+        width: 6%;
+    }
+    .parte7 .cuadros .absolu > img:nth-child(2){
+        left: 64%;
+        width: 6%;
+    }
+
+    .parte7 .cuadros .absolu{
+        display: flex;
+        gap: 10px;
+        position: relative;
+        width: 100%;
+    }
+    .parte7 .cuadros .absolu > div {
+        width: 32%;
+    }
+    .parte7 .cuadros .absolu div > p{
+        font-size: 14px;
+        padding: 14% 12%;
+    }
+    .parte7 .cuadros .absolu .uno{
+        left: 0;
+        position: absolute;
+    }
+    .parte7 .cuadros .absolu .dos{
+        margin-top: 5%;
+        margin-left: 34%;
+    }
+    .parte7 .cuadros .absolu .tres{
+        right: 0;
+        position: absolute;
+    }
+    /* parte 8 */
+    .parte8{
+        display: block;
+        padding: 5% 10%;
+    }
+    .parte8 .contenido{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .parte8 .contenido a {
+        color: white;
+    }
+    /* footer */
+    footer .piedepagina{
+        align-items: center;
+        gap: 20px;
+        padding: 8% 0;
+        justify-content: center;
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        display: flex;
+    }
+    footer .piedepagina .textopiedepagina{
+        text-align: end;
+    }
+    footer .piedepagina .textopiedepagina img{
+        width: 8%;
+    }
 }
 @media (min-width: 1200px) and (max-width: 1399.98px){
     .principal nav .icono{
@@ -1835,6 +2492,146 @@
     .parte5 .caja2 img{
         width: 100%;
     }
+        /* parte 6 */
+        .parte6 .cuadros .prime{
+            display: block;
+        }
+        .parte6 .cuadros .flex{
+            position: absolute;
+            top: 34%;
+            justify-content: center;
+            width: 100%;
+        }
+        .parte6 .cuadros .flex .absolu{
+            display: flex;
+            position: relative;
+            gap: 20px;
+            justify-content: center;
+        }
+        .parte6 .cuadros .prime{
+            width: 100%;
+        }
+        .parte6 .cuadros .titulo{
+            position: absolute;
+            top: 28%;
+            color: white;
+            text-align: center;
+            width: 100%;
+            font-size: 39px;
+        }
+        .parte6 .cuadros .uno, .parte6 .cuadros .dos, .parte6 .cuadros .tres{
+            background: white;
+            position: absolute;
+            border-radius: 15px;
+            text-align: center;
+            width: 17%;
+            padding: 3% 6%;
+        }
+        .parte6 .cuadros .uno img,.parte6 .cuadros .dos img, .parte6 .cuadros .tres img{
+            width: 57%;
+        }
+        .parte6 .cuadros .uno h2,.parte6 .cuadros .dos h2, .parte6 .cuadros .tres h2{
+            margin: 7% 0;
+            font-size: 36px;
+        }
+        .parte6 .cuadros .uno p,.parte6 .cuadros .dos p,.parte6 .cuadros .tres p{
+            font-size: 17px;
+        }
+        .parte6 .cuadros .uno .marge,.parte6 .cuadros .dos .marge,.parte6 .cuadros .tres .marge{
+            margin-bottom: 20%;
+        }
+        .parte6 .cuadros .flex .uno{
+            left: 4%;
+        }
+        .parte6 .cuadros .flex .dos{
+        margin-top: 7%;
+        }
+        .parte6 .cuadros .flex .tres{
+            right: 4%;
+        }
+   /* parte 7 */
+   .parte7 .cuadros h2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    }
+    .parte7 .cuadros .primero{
+        display: none;
+    }
+    .parte7 .cuadros .segundo{
+        display: none;
+    }
+    
+    .parte7 .cuadros .absolu > img{
+        display: block;
+        top: 39%;
+        z-index: 1;
+    }
+    .parte7 .cuadros .absolu > img:nth-child(1){
+        left: 30%;
+        width: 6%;
+    }
+    .parte7 .cuadros .absolu > img:nth-child(2){
+        left: 64%;
+        width: 6%;
+    }
+
+    .parte7 .cuadros .absolu{
+        display: flex;
+        gap: 10px;
+        position: relative;
+        width: 100%;
+    }
+    .parte7 .cuadros .absolu > div {
+        width: 32%;
+    }
+    .parte7 .cuadros .absolu div > p{
+        font-size: 17px;
+        padding: 14% 12%;
+    }
+    .parte7 .cuadros .absolu .uno{
+        left: 0;
+        position: absolute;
+    }
+    .parte7 .cuadros .absolu .dos{
+        margin-top: 5%;
+        margin-left: 34%;
+    }
+    .parte7 .cuadros .absolu .tres{
+        right: 0;
+        position: absolute;
+    }
+    /* parte 8 */
+    .parte8{
+        display: block;
+        padding: 5% 10%;
+    }
+    .parte8 .contenido{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .parte8 .contenido a {
+        color: white;
+        font-size: 20px;
+    }
+    /* footer */
+    footer .piedepagina{
+        align-items: center;
+        gap: 20px;
+        padding: 8% 0;
+        justify-content: center;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        display: flex;
+    }
+    footer .piedepagina .textopiedepagina{
+        text-align: end;
+    }
+    footer .piedepagina .textopiedepagina img{
+        width: 8%;
+    }
 }
 @media (min-width: 1400px) and (max-width:1699.98px){
     .principal nav .icono{
@@ -2113,6 +2910,146 @@
     }
     .parte5 .caja2 img{
         width: 100%;
+    }
+        /* parte 6 */
+        .parte6 .cuadros .prime{
+            display: block;
+        }
+        .parte6 .cuadros .flex{
+            position: absolute;
+            top: 34%;
+            justify-content: center;
+            width: 100%;
+        }
+        .parte6 .cuadros .flex .absolu{
+            display: flex;
+            position: relative;
+            gap: 20px;
+            justify-content: center;
+        }
+        .parte6 .cuadros .prime{
+            width: 100%;
+        }
+        .parte6 .cuadros .titulo{
+            position: absolute;
+            top: 28%;
+            color: white;
+            text-align: center;
+            font-size: 44px;
+            width: 100%;
+        }
+        .parte6 .cuadros .uno, .parte6 .cuadros .dos, .parte6 .cuadros .tres{
+            background: white;
+            position: absolute;
+            border-radius: 15px;
+            text-align: center;
+            width: 17%;
+            padding: 3% 6%;
+        }
+        .parte6 .cuadros .uno img,.parte6 .cuadros .dos img, .parte6 .cuadros .tres img{
+            width: 57%;
+        }
+        .parte6 .cuadros .uno h2,.parte6 .cuadros .dos h2, .parte6 .cuadros .tres h2{
+            margin: 7% 0;
+            font-size: 34px;
+        }
+        .parte6 .cuadros .uno p,.parte6 .cuadros .dos p,.parte6 .cuadros .tres p{
+            font-size: 18px;
+        }
+        .parte6 .cuadros .uno .marge,.parte6 .cuadros .dos .marge,.parte6 .cuadros .tres .marge{
+            margin-bottom: 20%;
+        }
+        .parte6 .cuadros .flex .uno{
+            left: 4%;
+        }
+        .parte6 .cuadros .flex .dos{
+        margin-top: 7%;
+        }
+        .parte6 .cuadros .flex .tres{
+            right: 4%;
+        }
+   /* parte 7 */
+   .parte7 .cuadros h2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    }
+    .parte7 .cuadros .primero{
+        display: none;
+    }
+    .parte7 .cuadros .segundo{
+        display: none;
+    }
+    
+    .parte7 .cuadros .absolu > img{
+        display: block;
+        top: 39%;
+        z-index: 1;
+    }
+    .parte7 .cuadros .absolu > img:nth-child(1){
+        left: 30%;
+        width: 6%;
+    }
+    .parte7 .cuadros .absolu > img:nth-child(2){
+        left: 64%;
+        width: 6%;
+    }
+
+    .parte7 .cuadros .absolu{
+        display: flex;
+        gap: 10px;
+        position: relative;
+        width: 100%;
+    }
+    .parte7 .cuadros .absolu > div {
+        width: 32%;
+    }
+    .parte7 .cuadros .absolu div > p{
+        font-size: 20px;
+        padding: 14% 12%;
+    }
+    .parte7 .cuadros .absolu .uno{
+        left: 0;
+        position: absolute;
+    }
+    .parte7 .cuadros .absolu .dos{
+        margin-top: 5%;
+        margin-left: 34%;
+    }
+    .parte7 .cuadros .absolu .tres{
+        right: 0;
+        position: absolute;
+    }
+    /* parte 8 */
+    .parte8{
+        display: block;
+        padding: 5% 10%;
+    }
+    .parte8 .contenido{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .parte8 .contenido a {
+        color: white;
+        font-size: 25px;
+    }
+    /* footer */
+    footer .piedepagina{
+        align-items: center;
+        gap: 80px;
+        padding: 8% 0;
+        justify-content: center;
+        font-size: 17px;
+        color: white;
+        text-align: center;
+        display: flex;
+    }
+    footer .piedepagina .textopiedepagina{
+        text-align: end;
+    }
+    footer .piedepagina .textopiedepagina img{
+        width: 8%;
     }
 }
 @media (min-width: 1700px) and (max-width:1999.98px){
@@ -2396,6 +3333,146 @@
     .parte5 .caja2 img{
         width: 100%;
     }
+    /* parte 6 */
+        .parte6 .cuadros .prime{
+            display: block;
+        }
+        .parte6 .cuadros .flex{
+            position: absolute;
+            top: 34%;
+            justify-content: center;
+            width: 100%;
+        }
+        .parte6 .cuadros .flex .absolu{
+            display: flex;
+            position: relative;
+            gap: 20px;
+            justify-content: center;
+        }
+        .parte6 .cuadros .prime{
+            width: 100%;
+        }
+        .parte6 .cuadros .titulo{
+            position: absolute;
+            top: 28%;
+            color: white;
+            text-align: center;
+            font-size: 44px;
+            width: 100%;
+        }
+        .parte6 .cuadros .uno, .parte6 .cuadros .dos, .parte6 .cuadros .tres{
+            background: white;
+            position: absolute;
+            border-radius: 15px;
+            text-align: center;
+            width: 17%;
+            padding: 3% 6%;
+        }
+        .parte6 .cuadros .uno img,.parte6 .cuadros .dos img, .parte6 .cuadros .tres img{
+            width: 57%;
+        }
+        .parte6 .cuadros .uno h2,.parte6 .cuadros .dos h2, .parte6 .cuadros .tres h2{
+            margin: 7% 0;
+            font-size: 34px;
+        }
+        .parte6 .cuadros .uno p,.parte6 .cuadros .dos p,.parte6 .cuadros .tres p{
+            font-size: 18px;
+        }
+        .parte6 .cuadros .uno .marge,.parte6 .cuadros .dos .marge,.parte6 .cuadros .tres .marge{
+            margin-bottom: 20%;
+        }
+        .parte6 .cuadros .flex .uno{
+            left: 4%;
+        }
+        .parte6 .cuadros .flex .dos{
+        margin-top: 7%;
+        }
+        .parte6 .cuadros .flex .tres{
+            right: 4%;
+        }
+   /* parte 7 */
+   .parte7 .cuadros h2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    }
+    .parte7 .cuadros .primero{
+        display: none;
+    }
+    .parte7 .cuadros .segundo{
+        display: none;
+    }
+    
+    .parte7 .cuadros .absolu > img{
+        display: block;
+        top: 39%;
+        z-index: 1;
+    }
+    .parte7 .cuadros .absolu > img:nth-child(1){
+        left: 30%;
+        width: 6%;
+    }
+    .parte7 .cuadros .absolu > img:nth-child(2){
+        left: 64%;
+        width: 6%;
+    }
+
+    .parte7 .cuadros .absolu{
+        display: flex;
+        gap: 10px;
+        position: relative;
+        width: 100%;
+    }
+    .parte7 .cuadros .absolu > div {
+        width: 32%;
+    }
+    .parte7 .cuadros .absolu div > p{
+        font-size: 24px;
+        padding: 14% 12%;
+    }
+    .parte7 .cuadros .absolu .uno{
+        left: 0;
+        position: absolute;
+    }
+    .parte7 .cuadros .absolu .dos{
+        margin-top: 5%;
+        margin-left: 34%;
+    }
+    .parte7 .cuadros .absolu .tres{
+        right: 0;
+        position: absolute;
+    }
+    /* parte 8 */
+    .parte8{
+        display: block;
+        padding: 5% 10%;
+    }
+    .parte8 .contenido{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .parte8 .contenido a {
+        color: white;
+        font-size: 30px;
+    }
+    /* footer */
+    footer .piedepagina{
+        align-items: center;
+        gap: 100px;
+        padding: 8% 0;
+        justify-content: center;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        display: flex;
+    }
+    footer .piedepagina .textopiedepagina{
+        text-align: end;
+    }
+    footer .piedepagina .textopiedepagina img{
+        width: 8%;
+    }
 }
 @media (min-width: 2000px){
     .principal nav .icono{
@@ -2677,5 +3754,145 @@
     }
     .parte5 .caja2 img{
         width: 100%;
+    }
+        /* parte 6 */
+        .parte6 .cuadros .prime{
+            display: block;
+        }
+        .parte6 .cuadros .flex{
+            position: absolute;
+            top: 34%;
+            justify-content: center;
+            width: 100%;
+        }
+        .parte6 .cuadros .flex .absolu{
+            display: flex;
+            position: relative;
+            gap: 20px;
+            justify-content: center;
+        }
+        .parte6 .cuadros .prime{
+            width: 100%;
+        }
+        .parte6 .cuadros .titulo{
+            position: absolute;
+            top: 28%;
+            color: white;
+            text-align: center;
+            font-size: 44px;
+            width: 100%;
+        }
+        .parte6 .cuadros .uno, .parte6 .cuadros .dos, .parte6 .cuadros .tres{
+            background: white;
+            position: absolute;
+            border-radius: 69px;
+            text-align: center;
+            width: 17%;
+            padding: 3% 6%;
+        }
+        .parte6 .cuadros .uno img,.parte6 .cuadros .dos img, .parte6 .cuadros .tres img{
+            width: 57%;
+        }
+        .parte6 .cuadros .uno h2,.parte6 .cuadros .dos h2, .parte6 .cuadros .tres h2{
+            margin: 7% 0;
+            font-size: 48px;
+        }
+        .parte6 .cuadros .uno p,.parte6 .cuadros .dos p,.parte6 .cuadros .tres p{
+            font-size: 27px;
+        }
+        .parte6 .cuadros .uno .marge,.parte6 .cuadros .dos .marge,.parte6 .cuadros .tres .marge{
+            margin-bottom: 20%;
+        }
+        .parte6 .cuadros .flex .uno{
+            left: 4%;
+        }
+        .parte6 .cuadros .flex .dos{
+        margin-top: 7%;
+        }
+        .parte6 .cuadros .flex .tres{
+            right: 4%;
+        }
+   /* parte 7 */
+   .parte7 .cuadros h2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    }
+    .parte7 .cuadros .primero{
+        display: none;
+    }
+    .parte7 .cuadros .segundo{
+        display: none;
+    }
+    
+    .parte7 .cuadros .absolu > img{
+        display: block;
+        top: 39%;
+        z-index: 1;
+    }
+    .parte7 .cuadros .absolu > img:nth-child(1){
+        left: 30%;
+        width: 6%;
+    }
+    .parte7 .cuadros .absolu > img:nth-child(2){
+        left: 64%;
+        width: 6%;
+    }
+
+    .parte7 .cuadros .absolu{
+        display: flex;
+        gap: 10px;
+        position: relative;
+        width: 100%;
+    }
+    .parte7 .cuadros .absolu > div {
+        width: 32%;
+    }
+    .parte7 .cuadros .absolu div > p{
+        font-size: 29px;
+        padding: 14% 12%;
+    }
+    .parte7 .cuadros .absolu .uno{
+        left: 0;
+        position: absolute;
+    }
+    .parte7 .cuadros .absolu .dos{
+        margin-top: 5%;
+        margin-left: 34%;
+    }
+    .parte7 .cuadros .absolu .tres{
+        right: 0;
+        position: absolute;
+    }
+    /* parte 8 */
+    .parte8{
+        display: block;
+        padding: 5% 10%;
+    }
+    .parte8 .contenido{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .parte8 .contenido a {
+        color: white;
+        font-size: 35px;
+    }
+    /* footer */
+    footer .piedepagina{
+        align-items: center;
+        gap: 120px;
+        padding: 8% 0;
+        justify-content: center;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        display: flex;
+    }
+    footer .piedepagina .textopiedepagina{
+        text-align: end;
+    }
+    footer .piedepagina .textopiedepagina img{
+        width: 8%;
     }
 }
